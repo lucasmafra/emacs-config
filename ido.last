@@ -1,0 +1,38 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/lucas/development/experiments/" . "payroll-clj/")
+ ("/home/lucas/development/" . "experiments/")
+ ("/home/lucas/" . "development/")
+ ("/home/lucas/development/experiments/payroll-clj/src/" . "payroll_clj/")
+ ("/home/lucas/development/experiments/payroll-clj/" . "src/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/lucas/development/experiments/payroll-clj/src/payroll_clj/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "core.clj"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/lucas/development/experiments/" (23820 10863 823577 312000) "event-template/" "payroll-clj/" "now-examples/" "next-learn-demo/" "./" "../")
+
+ ("/home/lucas/development/" (23807 57317 964453 536000) "./" "../" "lucasmafra/" "experiments/" "poli/")
+
+ ("/home/lucas/" (23820 16119 607944 134000) "emacs/" ".profile" "ideaIU-2018.1/" ".local/" "Videos/" "snap/" ".zcompdump-lucas-Inspiron-5458-5.2" ".zcompdump" ".now/" ".ICEauthority" "font" ".doom.d/" ".zshrc.pre-oh-my-zsh" ".yarn/" ".IntelliJIdea2018.1/" ".cache/" ".oh-my-zsh/" ".npm/" ".java/" "development/" ".zsh-update" ".ssh/" ".histfile" "Public/" "file1" ".mozilla/" ".node_repl_history" ".yarnrc" "apps/" ".zcompdump-lucas-Inspiron-5458-5.4.2" "file3" ".pki/" ".sudo_as_admin_successful" "Music/" ".bash_history" ".netrc" ".lein/" ".zshrc.save" ".nvm/" "Downloads/" ".nano/" ".emacs.d/" "./" "WebStorm-191.7479.14/" "Templates/" "Desktop/" "../" ".docker/" "curl-format.txt" ".zsh_history" ".bashrc" "examples.desktop" ".wget-hsts" ".m2/" "file2" ".gnupg/" "Documents/" ".gnome/" ".bash_logout" ".config/" ".gitconfig" ".zshrc" "Pictures/" "the_silver_searcher/" ".WebStorm2019.1/")
+
+ ("/home/lucas/development/experiments/payroll-clj/src/payroll_clj/" (23820 10939 19516 100000) "employee.clj" "payment_classification/" "time_extended.clj" "payment_classification.clj" "union.clj" "core.clj" "./" "felipe.marques@Felipes-MBP.lan.20439" "../")
+
+ ("/home/lucas/development/experiments/payroll-clj/src/" (23820 10939 19516 100000) "payroll_clj/" "./" "../")
+
+ ("/home/lucas/development/experiments/payroll-clj/" (23820 16076 875650 873000) "LICENSE" "README.md" "doc/" ".git/" "CHANGELOG.md" "target/" "test/" "project.clj" "./" ".gitignore" "../" "src/" ".lein-repl-history")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -1,0 +1,1 @@
+("~/development/experiments/payroll-clj/" "~/.emacs.d/")

@@ -1,0 +1,29 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/lucas/development/experiments/payroll-clj/src/" . "payroll_clj/")
+ ("/home/lucas/development/experiments/payroll-clj/" . "src/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/lucas/development/experiments/payroll-clj/src/payroll_clj/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "core.clj"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/lucas/development/experiments/payroll-clj/src/payroll_clj/" (23820 10939 19516 100000) "employee.clj" "payment_classification/" "time_extended.clj" "payment_classification.clj" "union.clj" "core.clj" "./" "felipe.marques@Felipes-MBP.lan.20439" "../")
+
+ ("/home/lucas/development/experiments/payroll-clj/src/" (23820 10939 19516 100000) "payroll_clj/" "./" "../")
+
+ ("/home/lucas/development/experiments/payroll-clj/" (23820 16076 875650 873000) "LICENSE" "README.md" "doc/" ".git/" "CHANGELOG.md" "target/" "test/" "project.clj" "./" ".gitignore" "../" "src/" ".lein-repl-history")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
