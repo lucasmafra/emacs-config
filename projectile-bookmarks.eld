@@ -1,1 +1,1 @@
-("~/development/experiments/payroll-clj/" "~/.emacs.d/")
+("~/.emacs.d/" "~/development/lucasmafra/cubo-site/" "~/development/lucasmafra/cubo-site2/" "~/development/experiments/next-learn-demo/" "~/development/poli/lab-micro/gcc-arm/" "~/development/lucasmafra/payroll-clj/" "~/development/lucasmafra/react-owl-carousel2/" "~/development/lucasmafra/katas-typescript/" "~/development/experiments/payroll-clj/")

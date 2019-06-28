@@ -1,19 +1,41 @@
 
 ;; ----- smex-history -----
 (
- package-list-packages
- cider-jack-in
- package-install
- package-refresh-contents
- cd
- 5x5
- arp
+ rjsx-mode
+ rsh
+ projectile-find-file
+ set-variable
+ copy-to-buffer
+ replace-string
+ replace-regexp
 )
 
 ;; ----- smex-data -----
 (
- (cider-jack-in . 3)
+ (cider-jack-in . 13)
  (package-refresh-contents . 1)
  (package-install . 1)
  (package-list-packages . 3)
+ (projectile-find-file . 206)
+ (clojure-thread-first-all . 2)
+ (cider-inspect-last-result . 9)
+ (projectile-switch-project . 4)
+ (projectile-discover-projects-in-directory . 4)
+ (switch-to-buffer . 1)
+ (raise-sexp . 14)
+ (clojure-align . 89)
+ (tagedit-splice-tag . 2)
+ (paredit-splice-sexp . 8)
+ (rename-file . 9)
+ (clojure-thread-last-all . 1)
+ (align . 1)
+ (show-subtree . 1)
+ (outline-show-subtree . 1)
+ (find-tag . 2)
+ (rjsx-mode . 14)
+ (replace-regexp . 1)
+ (replace-string . 3)
+ (copy-to-buffer . 1)
+ (set-variable . 2)
+ (rsh . 1)
 )
