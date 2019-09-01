@@ -2,4 +2,4 @@
 ;; Automatically written history of CIDER REPL session
 ;; Edit at your own risk
 
-("(doc midje)")
+("clear" "quit" "(keys {:a 1 :b 2})" "(+ 1 1)" "(doc midje)")

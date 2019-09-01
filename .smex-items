@@ -1,41 +1,81 @@
 
 ;; ----- smex-history -----
 (
- rjsx-mode
- rsh
- projectile-find-file
- set-variable
- copy-to-buffer
+ cider-jack-in
+ paredit-splice-sexp
+ split-line
+ raise-sexp
+ clojure-thread-first-all
  replace-string
- replace-regexp
+ cider-inspect-last-result
 )
 
 ;; ----- smex-data -----
 (
- (cider-jack-in . 13)
+ (cider-jack-in . 142)
  (package-refresh-contents . 1)
- (package-install . 1)
- (package-list-packages . 3)
- (projectile-find-file . 206)
- (clojure-thread-first-all . 2)
- (cider-inspect-last-result . 9)
- (projectile-switch-project . 4)
- (projectile-discover-projects-in-directory . 4)
+ (package-install . 13)
+ (package-list-packages . 5)
+ (projectile-find-file . 214)
+ (clojure-thread-first-all . 11)
+ (cider-inspect-last-result . 15)
+ (projectile-switch-project . 6)
+ (projectile-discover-projects-in-directory . 8)
  (switch-to-buffer . 1)
- (raise-sexp . 14)
- (clojure-align . 89)
+ (raise-sexp . 51)
+ (clojure-align . 96)
  (tagedit-splice-tag . 2)
- (paredit-splice-sexp . 8)
+ (paredit-splice-sexp . 30)
  (rename-file . 9)
- (clojure-thread-last-all . 1)
- (align . 1)
+ (clojure-thread-last-all . 2)
+ (align . 3)
  (show-subtree . 1)
  (outline-show-subtree . 1)
  (find-tag . 2)
- (rjsx-mode . 14)
- (replace-regexp . 1)
- (replace-string . 3)
+ (rjsx-mode . 89)
+ (replace-regexp . 11)
+ (replace-string . 56)
  (copy-to-buffer . 1)
  (set-variable . 2)
  (rsh . 1)
+ (js-mode . 1)
+ (js2-minor-mode . 6)
+ (js2-mode . 6)
+ (js-import . 189)
+ (prettier-js-mode . 4)
+ (flycheck-mode . 2)
+ (company-mode . 1)
+ (tide-mode . 32)
+ (tide-restart-server . 33)
+ (tide-refactor . 2)
+ (tide-organize-imports . 1)
+ (js2-refactor-mode . 1)
+ (multiple-cursors-mode . 1)
+ (mc/mark-next-lines . 1)
+ (global-set-key . 5)
+ (eval-defun . 1)
+ (eval-last-sexp . 1)
+ (neotree . 2)
+ (neotree-toggle . 4)
+ (neotree-select-down-node . 1)
+ (run-js . 13)
+ (ibuffer-diff-with-file . 1)
+ (diff-buffer-with-file . 4)
+ (projectile-replace . 1)
+ (js-send-buffer . 5)
+ (js-clear . 10)
+ (js-send-last-sexp . 1)
+ (neotree-refresh . 4)
+ (make-directory . 1)
+ (cider . 1)
+ (load-file . 1)
+ (cider-refresh . 1)
+ (cider-restart . 1)
+ (kill-grep . 1)
+ (save-buffer . 1)
+ (shell . 1)
+ (projectile-remove-known-project . 3)
+ (shell-command . 6)
+ (cider-scratch . 1)
+ (split-line . 1)
 )

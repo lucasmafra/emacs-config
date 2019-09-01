@@ -13,7 +13,7 @@
 
 (add-to-list 'package-pinned-packages '(cider . "melpa-stable") t)
 (add-to-list 'package-pinned-packages '(magit . "melpa-stable") t)
-
+(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 
 ;; Load and activate emacs packages. Do this first so that the
 ;; packages are loaded before you start trying to modify them.
@@ -144,8 +144,7 @@
  ;; If there is more than one, they won't work right.
  '(coffee-tab-width 2)
  '(package-selected-packages
-   (quote
-    (company rjsx-mode sesman magit tagedit rainbow-delimiters projectile smex ido-completing-read+ cider clojure-mode-extra-font-locking clojure-mode paredit exec-path-from-shell))))
+   '(js-comint neotree emmet-mode flycheck web-mode add-node-modules-path prettier-js js-import company rjsx-mode sesman magit tagedit rainbow-delimiters projectile smex ido-completing-read+ cider clojure-mode-extra-font-locking clojure-mode paredit exec-path-from-shell)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -153,4 +152,44 @@
  ;; If there is more than one, they won't work right.
  )
 
+
 (add-hook 'after-init-hook 'global-company-mode)
+  
+(add-hook 'flycheck-mode-hook 'add-node-modules-path)
+(add-hook 'js2-mode-hook #'setup-tide-mode)
+;; configure javascript-tide checker to run after your default javascript checker
+
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.jsx\\'" . web-mode))
+(add-hook 'web-mode-hook
+          (lambda ()
+            (when (string-equal "jsx" (file-name-extension buffer-file-name))
+              (setup-tide-mode))))
+;; configure jsx-tide checker to run after your default jsx checker
+(require 'js2-refactor)
+(add-hook 'js2-mode-hook #'js2-refactor-mode)
+(require 'expand-region)
+(global-set-key (kbd "C-=") 'er/expand-region)
+(require 'multiple-cursors)
+(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+(global-set-key (kbd "C->") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+
+(projectile-mode +1)
+(define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
+(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
+(global-set-key (kbd "C-u") 'undo)
+
+
+(require 'neotree)
+(global-set-key [f8] 'neotree-toggle)
+
+(add-to-list 'load-path "~/mylisp/")
+(require 'js-comint)
+
+(add-hook 'js2-mode-hook
+          (lambda ()
+            (local-set-key (kbd "C-c C-e") 'js-send-last-sexp)
+            (local-set-key (kbd "C-c C-k") 'js-send-buffer)
+            (local-set-key (kbd "C-c C-b") 'js-send-buffer-and-go)))
