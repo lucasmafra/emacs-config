@@ -1,32 +1,32 @@
 
 ;; ----- smex-history -----
 (
- cider-jack-in
- paredit-splice-sexp
- split-line
- raise-sexp
+ query-replace
+ cljr-rename-file
+ cljr-add-require-to-ns
+ neotree-toggle
  clojure-thread-first-all
- replace-string
- cider-inspect-last-result
+ projectile-discover-projects-in-directory
+ cljr-clean-ns
 )
 
 ;; ----- smex-data -----
 (
- (cider-jack-in . 142)
- (package-refresh-contents . 1)
- (package-install . 13)
- (package-list-packages . 5)
- (projectile-find-file . 214)
- (clojure-thread-first-all . 11)
- (cider-inspect-last-result . 15)
+ (cider-jack-in . 177)
+ (package-refresh-contents . 2)
+ (package-install . 14)
+ (package-list-packages . 6)
+ (projectile-find-file . 216)
+ (clojure-thread-first-all . 16)
+ (cider-inspect-last-result . 19)
  (projectile-switch-project . 6)
- (projectile-discover-projects-in-directory . 8)
+ (projectile-discover-projects-in-directory . 21)
  (switch-to-buffer . 1)
  (raise-sexp . 51)
  (clojure-align . 96)
  (tagedit-splice-tag . 2)
  (paredit-splice-sexp . 30)
- (rename-file . 9)
+ (rename-file . 10)
  (clojure-thread-last-all . 2)
  (align . 3)
  (show-subtree . 1)
@@ -34,7 +34,7 @@
  (find-tag . 2)
  (rjsx-mode . 89)
  (replace-regexp . 11)
- (replace-string . 56)
+ (replace-string . 58)
  (copy-to-buffer . 1)
  (set-variable . 2)
  (rsh . 1)
@@ -44,7 +44,7 @@
  (js-import . 189)
  (prettier-js-mode . 4)
  (flycheck-mode . 2)
- (company-mode . 1)
+ (company-mode . 3)
  (tide-mode . 32)
  (tide-restart-server . 33)
  (tide-refactor . 2)
@@ -56,26 +56,34 @@
  (eval-defun . 1)
  (eval-last-sexp . 1)
  (neotree . 2)
- (neotree-toggle . 4)
+ (neotree-toggle . 8)
  (neotree-select-down-node . 1)
  (run-js . 13)
  (ibuffer-diff-with-file . 1)
  (diff-buffer-with-file . 4)
- (projectile-replace . 1)
+ (projectile-replace . 3)
  (js-send-buffer . 5)
  (js-clear . 10)
  (js-send-last-sexp . 1)
  (neotree-refresh . 4)
  (make-directory . 1)
- (cider . 1)
+ (cider . 5)
  (load-file . 1)
  (cider-refresh . 1)
  (cider-restart . 1)
  (kill-grep . 1)
  (save-buffer . 1)
  (shell . 1)
- (projectile-remove-known-project . 3)
+ (projectile-remove-known-project . 6)
  (shell-command . 6)
  (cider-scratch . 1)
  (split-line . 1)
+ (paredit-forward-slurp-sexp . 31)
+ (query-replace . 9)
+ (ediff3 . 1)
+ (package-install-selected-packages . 1)
+ (projectile-grep . 1)
+ (cljr-clean-ns . 1)
+ (cljr-add-require-to-ns . 1)
+ (cljr-rename-file . 1)
 )

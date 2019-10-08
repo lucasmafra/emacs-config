@@ -3,9 +3,15 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+        end-of-buffer
+        kill-region
+        paredit-forward-delete
+        paredit-forward-kill-word
+        paredit-kill
         smex
         ))
 
 (setq mc/cmds-to-run-once
       '(
+        mouse-set-region
         ))
