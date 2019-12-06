@@ -19,7 +19,7 @@
  ("/Users/lucas.mafra/dev/nu/griswold/src/" . "griswold/")
  ("/Users/lucas.mafra/dev/lucasmafra/" . "payroll-clj/")
  ("/Users/lucas.mafra/dev/" . "nu/")
- ("/Users/lucas.mafra/" . ".lein/")
+ ("/Users/lucas.mafra/" . ".emacs.d/")
  ("/home/lucas/dev/payroll-clj/ledger/test/" . "ledger/")
  ("/home/lucas/dev/common-clj/test/common_clj/" . "components/")
  ("/home/lucas/dev/payroll-clj/ledger/src/ledger/" . "controllers/")
@@ -81,6 +81,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/lucas.mafra/.emacs.d/"
  "/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/test/flows/"
  "/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/test/settlement/adapters/"
  "/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/src/settlement/adapters/"
@@ -92,7 +93,6 @@
  "/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/components/http_client/"
  "/Users/lucas.mafra/dev/nu/yellow-pages/test/yellow_pages/logic/"
  "/Users/lucas.mafra/dev/nu/yellow-pages/"
- "/Users/lucas.mafra/.emacs.d/"
  "/Users/lucas.mafra/dev/nu/yellow-pages/src/yellow_pages/"
  "/Users/lucas.mafra/dev/nu/griswold/src/griswold/schemata/"
  "/Users/lucas.mafra/dev/nu/griswold/src/griswold/controllers/"
@@ -135,6 +135,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "init.el"
  "create_batch.clj"
  "settlement_test.clj"
  "settlement.clj"
@@ -144,11 +145,26 @@
  "consumer.clj"
  "credentials.clj"
  "create_contacts_optimization.clj"
- "in_memory_http_client_test.clj"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/lucas.mafra/.emacs.d/" (24042 31895 556721 412000) ".smex-items" "cider-history" "backups/" "themes/" ".git/" "elpa/" ".gitignore" ".recentf" "README.md" "init.el" "auto-save-list/" "projectile-bookmarks.eld" "customizations/" ".mc-lists.el" "ido.last" "../" "./")
+
+ ("/Users/lucas.mafra/" (24042 31879 452923 372000) ".zlogin" ".bash_history" ".gitconfig" ".aws/" "Downloads/" ".oh-my-zsh/" ".gem/" ".bash_profile" ".histfile" ".m2/" "Documents/" ".zcompdump" "dev/" ".Trash/" ".profile" "Applications/" "Movies/" ".ssh/" ".zcompdump-Lucas’s MacBook Pro-5.3" ".kube/" "Public/" ".lein/" ".bash_sessions/" ".emacs.d/" ".oracle_jre_usage/" ".mkshrc" "Library/" "Desktop/" ".rvm/" ".zsh_history" "Pictures/" ".nurc" ".zshrc" ".zshrc.pre-oh-my-zsh" ".bashrc" ".zcompdump-Lucas’s MacBook Pro-5.7.1" ".CFUserTextEncoding" ".DS_Store" ".docker/" ".clojure/" "Music/" "../" "./")
+
+ ("/Users/lucas.mafra/dev/nu/horcrux/" (24042 31099 835347 401000) "src/" ".circleci/" "e2e/" ".git/" ".github/" ".gitignore" "README.md" ".nrepl-port" "postman/" "resources/" ".cljfmt-indents.edn" "target/" "config/" "test/" "project.clj" "../" "./")
+
+ ("/Users/lucas.mafra/dev/nu/horcrux/postman/postman/aux/" (24042 30769 252345 841000) "checker.clj" "split_transaction.clj" "init.clj" "savings_account.clj" "../" "./")
+
+ ("/Users/lucas.mafra/dev/nu/horcrux/postman/" (24042 29981 937490 717000) "postman/" "../" "./")
+
+ ("/Users/lucas.mafra/dev/nu/horcrux/postman/postman/" (24042 30769 252671 342000) "aux/" "split_transaction.clj" "savings_account.clj" "version.clj" "../" "./")
+
+ ("/Users/lucas.mafra/dev/nu/" (24042 29979 653796 206000) "nucli/" "cljdev/" "nimbus/" "nudev/" "ios-cli/" ".nu/" "deploy/" "horcrux/" "../" "./")
+
+ ("/Users/lucas.mafra/dev/" (24042 29041 338492 704000) "lucasmafra/" "nu/" "../" "./")
+
  ("/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/test/flows/" (23962 10630 292387 953000) "aux.clj" "create_batch.clj" "batch_settlement.clj" "../" "./")
 
  ("/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/test/settlement/" (23947 43775 180865 405000) "domain/" "../" "./")
@@ -156,8 +172,6 @@
  ("/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/src/settlement/controllers/" (23947 43775 179406 899000) "settlement.clj" "../" "./")
 
  ("/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/src/settlement/ports/" (23960 48867 910004 398000) "http_client.clj" "consumer.clj" "db.clj" "http_server.clj" "../" "./")
-
- ("/Users/lucas.mafra/" (23960 57097 307331 342000) ".zsh" "src/" ".viminfo" ".bash_history" ".gitconfig" ".aws/" "Downloads/" ".oh-my-zsh/" ".gem/" ".bash_profile" ".m2/" "Documents/" ".npm/" ".zcompdump" "dev/" ".Trash/" ".gradle/" "Applications/" "Movies/" ".ssh/" ".ansible/" ".lein-project-checksum" ".zcompdump-lucas.mafra-5.3" ".kube/" "Public/" ".lein/" ".sbt/" ".gems/" ".bash_sessions/" ".cocoapods/" ".android/" ".emacs.d/" ".emulator_console_auth_token" "sdk-flutter/" "Library/" "Desktop/" ".zsh_history" ".pub-cache/" ".bundle/" ".nvm/" ".shell.pre-oh-my-zsh" "Pictures/" ".nurc" "prometheus-2.12.0.darwin-amd64/" ".zshrc" ".subversion/" ".rbenv/" "bin/" ".CFUserTextEncoding" "VirtualBox VMs/" ".zshrc~" ".gnupg/" ".DS_Store" ".monocli" "go-workspace/" ".node-gyp/" ".ivy2/" "yellow-pages-not-optimized-deployment-s0.yaml" ".docker/" "Music/" ".config/" ".nurc~" "../" "./")
 
  ("/Users/lucas.mafra/dev/lucasmafra/common-clj/" (23960 57093 568900 882000) "src/" ".git/" "docker-compose.yml" ".gitignore" "README.md" "pom.xml" ".nrepl-port" "resources/" "target/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "pom.xml.asc" "../" "./")
 
@@ -205,13 +219,7 @@
 
  ("/Users/lucas.mafra/dev/nu/yellow-pages/src/yellow_pages/controllers/" (23950 15767 328133 347000) "contact.clj" "owner.clj" "batch.clj" "migration.clj" "../" "./")
 
- ("/Users/lucas.mafra/.emacs.d/" (23947 29616 147738 82000) ".smex-items" "cider-history" "backups/" "themes/" ".git/" "elpa/" ".gitignore" ".recentf" "README.md" "init.el" "auto-save-list/" "projectile-bookmarks.eld" "customizations/" ".mc-lists.el" "ido.last" "../" "./")
-
- ("/Users/lucas.mafra/dev/" (23940 55897 747371 661000) "prom-ql-training/" "lucasmafra/" "nu/" "../" "./")
-
  ("/Users/lucas.mafra/dev/nu/yellow-pages/postman/" (23922 33590 420254 401000) "postman/" "../" "./")
-
- ("/Users/lucas.mafra/dev/nu/" (23946 20807 781344 223000) "itaipu/" "hermes/" "nucli/" "conrado/" "cljdev/" ".lein-project-checksum" "common-kafka/" "social/" "nudev/" "ios-cli/" ".nu/" "deploy/" "mini-meta-repo/" "griswold/" ".DS_Store" "stormshield/" "yellow-pages/" "nu-setup/" "../" "./")
 
  ("/Users/lucas.mafra/dev/nu/yellow-pages/src/" (23922 33590 426461 636000) "yellow_pages/" "../" "./")
 
@@ -340,14 +348,6 @@
  ("/home/lucas/dev/payroll-clj/common/src/" (23871 45570 467347 436000) "../" "./" "common/")
 
  ("/home/lucas/dev/payroll-clj/common/src/common/" (23893 60926 412906 158000) "../" "core.clj" "components/" "./")
-
- ("/home/lucas/dev/cubo-api/src/api/inscription/" (23882 53133 42251 629000) "../" "schema.graphql" "./" "rules.ts" "mutations.resolver.ts")
-
- ("/home/lucas/dev/cubo-api/src/api/activity/" (23882 53133 42251 629000) "../" "schema.graphql" "./" "queries.resolver.ts" "types.resolver.ts" "mutations.resolver.ts")
-
- ("/home/lucas/dev/cubo-api/" (23877 47704 155903 332000) "../" "dist/" "yarn.lock" ".gitignore" "tsconfig.json" ".graphqlconfig.yml" "src/" ".circleci/" "tslint.json" ".dockerignore" "node_modules/" "latest.dump" "scripts/" "./" ".idea/" "README.md" "package.json" "env/" "reports/" "Procfile" ".git/" "Dockerfile" "features/" ".xlsx" "yarn-error.log" "test-utils/" "docker-compose.yml")
-
- ("/home/lucas/dev/gcc-arm/src/aula11/" (23881 52334 989922 517000) "irq.o" "../" "processos.o" "compile_commands.txt" "compile.sh" "irq.s" "prep/" "ex" "processoB.s" "handler.o" "processoB.o" "processoA.o" "irqld.ld" "./" "ex.elf" "handler.s" "processos.c")
 )
 
 ;; ----- ido-unc-hosts-cache -----

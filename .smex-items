@@ -1,26 +1,26 @@
 
 ;; ----- smex-history -----
 (
+ package-install
+ select-frame
+ package-list-packages
+ new-frame
+ projectile-discover-projects-in-directory
  query-replace
  cljr-rename-file
- cljr-add-require-to-ns
- neotree-toggle
- clojure-thread-first-all
- projectile-discover-projects-in-directory
- cljr-clean-ns
 )
 
 ;; ----- smex-data -----
 (
  (cider-jack-in . 177)
  (package-refresh-contents . 2)
- (package-install . 14)
- (package-list-packages . 6)
+ (package-install . 16)
+ (package-list-packages . 7)
  (projectile-find-file . 216)
  (clojure-thread-first-all . 16)
  (cider-inspect-last-result . 19)
  (projectile-switch-project . 6)
- (projectile-discover-projects-in-directory . 21)
+ (projectile-discover-projects-in-directory . 22)
  (switch-to-buffer . 1)
  (raise-sexp . 51)
  (clojure-align . 96)
@@ -86,4 +86,6 @@
  (cljr-clean-ns . 1)
  (cljr-add-require-to-ns . 1)
  (cljr-rename-file . 1)
+ (new-frame . 2)
+ (select-frame . 1)
 )
