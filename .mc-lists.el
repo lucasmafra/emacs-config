@@ -4,9 +4,12 @@
 (setq mc/cmds-to-run-for-all
       '(
         end-of-buffer
+        indent-for-tab-command
         kill-region
+        paredit-doublequote
         paredit-forward-delete
         paredit-forward-kill-word
+        paredit-forward-slurp-sexp
         paredit-kill
         smex
         ))

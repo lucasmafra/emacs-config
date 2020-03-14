@@ -2,24 +2,73 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas-ui/" . "public/")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/src/" . "atlas/")
+ ("/Users/lucas.mafra/dev/nu/horcrux/test/horcrux/db/" . "datomic/")
+ ("/Users/lucas.mafra/dev/nu/horcrux/test/horcrux/" . "db/")
+ ("/Users/lucas.mafra/dev/nu/horcrux/test/" . "horcrux/")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/resources/" . "fixtures/")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/components/" . "http_server/")
+ ("/" . "Users/")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/http_server/" . "interceptors/")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/test/atlas/" . "domain/")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/test/" . "atlas/")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/http_client/" . "interceptors/")
+ ("/Users/lucas.mafra/dev/nu/horcrux/src/horcrux/schemata/" . "beggar/")
+ ("/Users/lucas.mafra/dev/nu/horcrux/src/" . "horcrux/")
+ ("/Users/lucas.mafra/dev/nu/horcrux/" . "test/")
+ ("/Users/lucas.mafra/dev/nu/horcrux/src/horcrux/" . "logic/")
+ ("/Users/lucas.mafra/dev/nu/beggar/src/beggar/" . "adapters/")
+ ("/Users/lucas.mafra/dev/nu/zakarum/postman/postman/" . "aux/")
+ ("/Users/lucas.mafra/dev/nu/zakarum/src/zakarum/" . "schemata/")
+ ("/Users/lucas.mafra/dev/nu/zakarum/src/" . "zakarum/")
+ ("/Users/lucas.mafra/dev/nu/zakarum/" . "src/")
+ ("/Users/lucas.mafra/dev/playground/" . "atlas/")
+ ("/Users/lucas.mafra/dev/playground/oraculo/src/oraculo/" . "ports/")
+ ("/Users/lucas.mafra/dev/playground/oraculo/src/" . "oraculo/")
+ ("/Users/lucas.mafra/dev/playground/oraculo/" . "src/")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/" . "common_clj/")
+ ("/Users/lucas.mafra/dev/playground/atlas/src/" . "atlas/")
+ ("/Users/lucas.mafra/dev/playground/atlas/" . "src/")
+ ("/Users/lucas.mafra/dev/playground/atlas/src/atlas/" . "schemata/")
+ ("/Users/lucas.mafra/dev/lucasmafra/lm-app-template/resources/leiningen/new/" . "lm_app/")
+ ("/Users/lucas.mafra/dev/lucasmafra/lm-app-template/resources/leiningen/" . "new/")
+ ("/Users/lucas.mafra/dev/lucasmafra/lm-app-template/resources/" . "leiningen/")
+ ("/Users/lucas.mafra/dev/lucasmafra/lm-app-template/" . "resources/")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/" . "config/")
+ ("/Users/" . "lucas.mafra/")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/" . "domain/")
+ ("/Users/lucas.mafra/dev/nu/itaipu/src/test/scala/etl/dataset/" . "nuconta/")
+ ("/Users/lucas.mafra/dev/nu/itaipu/src/test/scala/etl/" . "dataset/")
+ ("/Users/lucas.mafra/dev/nu/itaipu/src/test/scala/" . "etl/")
+ ("/Users/lucas.mafra/dev/nu/itaipu/src/test/" . "scala/")
+ ("/Users/lucas.mafra/dev/nu/itaipu/src/" . "test/")
+ ("/Users/lucas.mafra/dev/nu/nucli/nucli.d/customer.d/.get_keys_and_certificates/" . "bin/")
+ ("/Users/lucas.mafra/dev/nu/nucli/nucli.d/" . "customer.d/")
+ ("/Users/lucas.mafra/dev/nu/nucli/" . "nucli.d/")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/" . "src/")
+ ("/Users/lucas.mafra/dev/nu/dockerfiles/" . "atlas-ui/")
+ ("/Users/lucas.mafra/dev/nu/atlas/" . "graph-api/")
+ ("/Users/lucas.mafra/dev/nu/atlas/graph-api/" . "resources/")
+ ("/Users/lucas.mafra/dev/nu/horcrux/postman/postman/" . "aux/")
  ("/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/test/" . "flows/")
  ("/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/src/settlement/" . "ports/")
  ("/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/src/" . "settlement/")
  ("/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/" . "test/")
- ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/" . "components/")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/" . "config/")
  ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/" . "common_clj/")
- ("/Users/lucas.mafra/dev/lucasmafra/common-clj/" . "test/")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/" . "src/")
  ("/Users/lucas.mafra/dev/nu/yellow-pages/test/yellow_pages/" . "logic/")
  ("/Users/lucas.mafra/dev/nu/yellow-pages/test/" . "yellow_pages/")
  ("/Users/lucas.mafra/dev/nu/yellow-pages/" . "test/")
- ("/Users/lucas.mafra/dev/nu/" . "yellow-pages/")
+ ("/Users/lucas.mafra/dev/nu/" . "nucli/")
  ("/Users/lucas.mafra/dev/nu/griswold/test/" . "griswold/")
  ("/Users/lucas.mafra/dev/nu/griswold/" . "test/")
  ("/Users/lucas.mafra/dev/nu/griswold/src/griswold/" . "schemata/")
  ("/Users/lucas.mafra/dev/nu/griswold/src/" . "griswold/")
- ("/Users/lucas.mafra/dev/lucasmafra/" . "payroll-clj/")
- ("/Users/lucas.mafra/dev/" . "nu/")
- ("/Users/lucas.mafra/" . ".emacs.d/")
+ ("/Users/lucas.mafra/dev/lucasmafra/" . "atlas-ui/")
+ ("/Users/lucas.mafra/dev/" . "lucasmafra/")
+ ("/Users/lucas.mafra/" . "dev/")
  ("/home/lucas/dev/payroll-clj/ledger/test/" . "ledger/")
  ("/home/lucas/dev/common-clj/test/common_clj/" . "components/")
  ("/home/lucas/dev/payroll-clj/ledger/src/ledger/" . "controllers/")
@@ -81,273 +130,273 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/lucas.mafra/dev/playground/svg-exploration/"
+ "/Users/lucas.mafra/dev/lucasmafra/atlas-ui/public/"
+ "/Users/lucas.mafra/Desktop/"
+ "/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/clojure_test_helpers/"
  "/Users/lucas.mafra/.emacs.d/"
- "/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/test/flows/"
- "/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/test/settlement/adapters/"
- "/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/src/settlement/adapters/"
- "/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/src/settlement/ports/"
- "/Users/lucas.mafra/"
- "/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/components/producer/"
+ "/Users/lucas.mafra/dev/lucasmafra/atlas/test/atlas/domain/"
+ "/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/logic/"
+ "/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/lib/"
+ "/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/controllers/"
+ "/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/schemata/"
+ "/Users/lucas.mafra/dev/lucasmafra/atlas/test/flows/"
+ "/Users/lucas.mafra/dev/nu/customers/src/customers/"
+ "/Users/lucas.mafra/dev/nu/horcrux/test/horcrux/db/datomic/"
+ "/Users/lucas.mafra/dev/nu/horcrux/src/horcrux/schemata/beggar/"
+ "/Users/lucas.mafra/dev/nu/horcrux/src/horcrux/schemata/itaipu/"
+ "/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/schema/"
+ "/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/config/"
+ "/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/config/"
+ "/Users/lucas.mafra/dev/lucasmafra/common-clj/test/aux/"
+ "/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/http_server/"
+ "/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/components/http_server/"
+ "/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/http_server/"
+ "/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/"
+ "/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/http_client/"
+ "/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/http_server/interceptors/"
+ "/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/http_client/"
+ "/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/http_client/interceptors/"
+ "/Users/lucas.mafra/dev/lucasmafra/common-clj/.clj-kondo/"
+ "/Users/lucas.mafra/dev/lucasmafra/common-clj/.github/workflows/"
+ "/Users/lucas.mafra/dev/lucasmafra/common-clj/config/"
+ "/Users/lucas.mafra/dev/lucasmafra/atlas/.github/workflows/"
+ "/Users/lucas.mafra/dev/lucasmafra/atlas/"
+ "/Users/lucas.mafra/dev/lucasmafra/atlas/.clj-kondo/"
  "/Users/lucas.mafra/.lein/"
- "/Users/lucas.mafra/dev/nu/yellow-pages/postman/postman/"
- "/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/components/http_client/"
- "/Users/lucas.mafra/dev/nu/yellow-pages/test/yellow_pages/logic/"
- "/Users/lucas.mafra/dev/nu/yellow-pages/"
- "/Users/lucas.mafra/dev/nu/yellow-pages/src/yellow_pages/"
- "/Users/lucas.mafra/dev/nu/griswold/src/griswold/schemata/"
- "/Users/lucas.mafra/dev/nu/griswold/src/griswold/controllers/"
- "/home/lucas/dev/common-clj/src/common_clj/components/http_server/"
- "/home/lucas/dev/common-clj/test/common_clj/components/http_server/"
- "/home/lucas/dev/common-clj/src/common_clj/schemata/"
- "/home/lucas/dev/common-clj/src/common_clj/components/docstore_client/"
- "/home/lucas/dev/payroll-clj/ledger/src/ledger/controllers/"
- "/home/lucas/dev/payroll-clj/ledger/test/ledger/adapters/"
- "/home/lucas/dev/common-clj/src/common_clj/"
- "/home/lucas/dev/payroll-clj/ledger/src/ledger/adapters/"
- "/home/lucas/dev/payroll-clj/ledger/src/ledger/components/ledger_repository/"
- "/home/lucas/dev/common-clj/test/common_clj/components/docstore_client/"
- "/home/lucas/dev/payroll-clj/ledger/resources/"
- "/home/lucas/dev/payroll-clj/ledger/src/ledger/ports/"
- "/home/lucas/dev/payroll-clj/ledger/src/ledger/"
- "/home/lucas/dev/payroll-clj/ledger/src/ledger/schemata/"
- "/home/lucas/dev/payroll-clj/ledger/test/flows/"
- "/home/lucas/dev/common-clj/src/common_clj/components/consumer/"
- "/home/lucas/dev/common-clj/src/common_clj/components/producer/"
- "/home/lucas/dev/common-clj/test/common_clj/components/producer/"
- "/home/lucas/dev/common-clj/src/common_clj/components/"
- "/home/lucas/dev/common-clj/"
- "/home/lucas/dev/payroll-clj/common/src/common/components/"
- "/home/lucas/dev/common-clj/test/common_clj/"
- "/home/lucas/dev/lm-app-template/resources/leiningen/new/lm_app/"
- "/home/lucas/dev/lm-app-template/"
- "/home/lucas/dev/lm-app-template/src/leiningen/new/"
- "/home/lucas/dev/payroll-clj/ledger/dev/"
- "/home/lucas/dev/payroll-clj/"
- "/home/lucas/dev/cubo-api/src/api/inscription/"
- "/home/lucas/dev/gcc-arm/src/aula11/"
- "/home/lucas/dev/cubo-site/.next/server/static/development/pages/"
- "/home/lucas/dev/cubo-site/pages/"
- "/home/lucas/dev/cubo-site/components/"
- "/home/lucas/dev/cubo-api/node_modules/prisma-client-lib/dist/"
- "/home/lucas/dev/cubo-api/scripts/"
- "/home/lucas/dev/cubo-site/data/"
+ "/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/"
+ "/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/http_server/interceptors/"
+ "/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/http_client/interceptors/"
+ "/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/domain/"
+ "/Users/lucas.mafra/dev/lucasmafra/atlas/test/atlas/adapters/"
+ "/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/adapters/"
+ "/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/"
+ "/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/ports/"
+ "/Users/lucas.mafra/dev/playground/atlas/src/atlas/schemata/"
+ "/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/state_flow_helpers/"
+ "/Users/lucas.mafra/dev/playground/atlas/src/atlas/ports/"
+ "/Users/lucas.mafra/dev/playground/atlas/src/atlas/controllers/"
+ "/Users/lucas.mafra/dev/nu/horcrux/src/horcrux/logic/"
+ "/Users/lucas.mafra/dev/nu/horcrux/src/horcrux/schemata/customers/"
+ "/Users/lucas.mafra/dev/nu/horcrux/src/horcrux/schemata/social/"
+ "/Users/lucas.mafra/dev/nu/horcrux/postman/postman/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "exploration.html"
+ "index.html"
+ "request_transfer_out.json"
+ "test.clj"
  "init.el"
- "create_batch.clj"
- "settlement_test.clj"
- "settlement.clj"
- "producer.clj"
- ".zshrc"
- "in_memory_producer_test.clj"
- "consumer.clj"
- "credentials.clj"
- "create_contacts_optimization.clj"
+ "trace_graph_test.clj"
+ "trace_graph.clj"
+ "coercion.clj"
+ "trace_search.clj"
+ "operation.clj"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/lucas.mafra/.emacs.d/" (24042 31895 556721 412000) ".smex-items" "cider-history" "backups/" "themes/" ".git/" "elpa/" ".gitignore" ".recentf" "README.md" "init.el" "auto-save-list/" "projectile-bookmarks.eld" "customizations/" ".mc-lists.el" "ido.last" "../" "./")
+ ("/Users/lucas.mafra/dev/playground/svg-exploration/" (24172 58326 635392 628000) "exploration.html" "package.json" "index.html" "../" "./")
 
- ("/Users/lucas.mafra/" (24042 31879 452923 372000) ".zlogin" ".bash_history" ".gitconfig" ".aws/" "Downloads/" ".oh-my-zsh/" ".gem/" ".bash_profile" ".histfile" ".m2/" "Documents/" ".zcompdump" "dev/" ".Trash/" ".profile" "Applications/" "Movies/" ".ssh/" ".zcompdump-Lucas’s MacBook Pro-5.3" ".kube/" "Public/" ".lein/" ".bash_sessions/" ".emacs.d/" ".oracle_jre_usage/" ".mkshrc" "Library/" "Desktop/" ".rvm/" ".zsh_history" "Pictures/" ".nurc" ".zshrc" ".zshrc.pre-oh-my-zsh" ".bashrc" ".zcompdump-Lucas’s MacBook Pro-5.7.1" ".CFUserTextEncoding" ".DS_Store" ".docker/" ".clojure/" "Music/" "../" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas-ui/public/" (24163 60083 267063 596000) "logo192.png" "robots.txt" "manifest.json" "logo512.png" "index.html" "favicon.ico" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/horcrux/" (24042 31099 835347 401000) "src/" ".circleci/" "e2e/" ".git/" ".github/" ".gitignore" "README.md" ".nrepl-port" "postman/" "resources/" ".cljfmt-indents.edn" "target/" "config/" "test/" "project.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas-ui/" (24163 60083 275606 892000) "src/" ".git/" "config-overrides.js" ".env" "package.json" ".gitignore" "public/" "yarn.lock" "README.md" "node_modules/" "config-overrides-antd-vars.less" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/horcrux/postman/postman/aux/" (24042 30769 252345 841000) "checker.clj" "split_transaction.clj" "init.clj" "savings_account.clj" "../" "./")
+ ("/Users/lucas.mafra/" (24172 57202 481717 473000) "miniconda3/" ".conda/" ".zlogin" ".viminfo" ".bash_history" ".gitconfig" ".aws/" ".python_history" "Downloads/" ".oh-my-zsh/" ".gem/" ".bash_profile" ".histfile" ".m2/" ".vscode/" ".cpcache/" "Documents/" ".npm/" "atlas.edn" ".zcompdump" ".jupyter/" "payload.json" "test.txt" "docker-compose.yml" "ejtserver_unix_1_13_1.tar.gz" "dev/" ".Trash/" "query.edn" ".gradle/" ".profile" "Applications/" "Movies/" ".ssh/" "reloaded/" ".zcompdump-Lucas’s MacBook Pro-5.3" ".flutter" ".kube/" "Public/" ".lein/" "go-flutter-open_file/" ".sbt/" "GHDL.ova" ".bash_sessions/" ".android/" ".emacs.d/" ".jprofiler11/" ".emulator_console_auth_token" ".oracle_jre_usage/" "mortician-result/" ".mkshrc" ".matplotlib/" "sdk-flutter/" "Library/" "Desktop/" ".rvm/" ".ipython/" ".p2/" ".zsh_history" "datomic-pro-0.9.5981/" ".nrepl-port" "Postman/" "contact-list-integration.edn" ".pub-cache/" ".clojure_history" ".nvm/" ".dartServer/" ".atom/" "Pictures/" ".nurc" "deps.edn" ".zshrc" ".zshrc.pre-oh-my-zsh" ".bashrc" ".subversion/" ".rbenv/" ".zcompdump-Lucas’s MacBook Pro-5.7.1" ".CFUserTextEncoding" ".yarnrc" "VirtualBox VMs/" ".gnupg/" "eclipse/" ".DS_Store" ".monocli" "go/" ".dart/" "tic-tac-toe/" "go-flutter-share/" ".node-gyp/" ".install4j" ".ivy2/" "ejtserver/" ".docker/" ".clojure/" "GHDL.ova.md5sum" "parasite.srt" "Music/" ".config/" ".eclipse/" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/horcrux/postman/" (24042 29981 937490 717000) "postman/" "../" "./")
+ ("/Users/lucas.mafra/dev/playground/" (24172 57172 388417 38000) "basic-microservice-example/" "bla/" "svg-exploration/" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/horcrux/postman/postman/" (24042 30769 252671 342000) "aux/" "split_transaction.clj" "savings_account.clj" "version.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/griswold/src/griswold/controllers/" (24169 30947 752911 857000) "bank_account.clj" "offer.clj" "sale.clj" "warning.clj" "bill_payment_request.clj" "frequent_transfers.clj" "migration.clj" "transfer_window.clj" "transfer_out_request.clj" "savings_account.clj" "savings_authorization.clj" "company_customer.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/" (24042 29979 653796 206000) "nucli/" "cljdev/" "nimbus/" "nudev/" "ios-cli/" ".nu/" "deploy/" "horcrux/" "../" "./")
+ ("/Users/lucas.mafra/Desktop/" (24170 20780 768841 733000) "request_transfer_out.json" ".localized" "Screen Recording 2020-03-03 at 13.38.52.mov" ".DS_Store" "Screen Recording 2020-03-03 at 13.43.34.mov" "Screen Recording 2020-03-03 at 13.38.41.mov" "../" "./")
 
- ("/Users/lucas.mafra/dev/" (24042 29041 338492 704000) "lucasmafra/" "nu/" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/common-kafka/src/" (24170 17668 937202 726000) "common_kafka/" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/test/flows/" (23962 10630 292387 953000) "aux.clj" "create_batch.clj" "batch_settlement.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/common-kafka/src/common_kafka/" (24170 17668 949988 772000) "protocols/" "components/" "internals/" "interceptors/" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/test/settlement/" (23947 43775 180865 405000) "domain/" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/common-kafka/src/common_kafka/components/" (24170 17668 940372 482000) "producer.clj" "consumer.clj" "mock_raw_producer.clj" "impls/" "clj_kafka_batch.clj" "mock_producer.clj" "topic_registry.clj" "raw_producer.clj" "mock_consumer.clj" "mock_batch_consumer.clj" "e2e_consumer.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/src/settlement/controllers/" (23947 43775 179406 899000) "settlement.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/" (24170 19520 749411 822000) "itaipu/" "common-graphql/" "haedrig/" "shore/" "dockerfiles/" "jd-npc-client/" "atlas/" "ml-academy/" "warriv/" "delivery-templates/" "nucli/" "conrado/" "cljdev/" "dart_desktop_http_client/" "definition/" "common-kafka/" "epay-client/" "nimbus/" "common-io/" "flutter/" "social/" "realmwalker/" "nudev/" "facade/" "zakarum/" "horadric/" "common-metrics/" "ios-cli/" "beggar/" ".nu/" "deploy/" "auth/" "mini-meta-repo/" "box2d.dart/" "griswold/" "gocd-config-dsl/" "the-smith/" "horcrux/" "dissendium/" "stormshield/" "yellow-pages/" "savings-accounts/" "customers/" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/src/settlement/ports/" (23960 48867 910004 398000) "http_client.clj" "consumer.clj" "db.clj" "http_server.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/the-smith/" (24170 12627 700874 323000) "src/" ".circleci/" "e2e/" ".git/" ".github/" "nu-build/" ".gitignore" "README.md" "start" ".nrepl-port" "postman/" "repl" "resources/" "target/" "config/" "test/" "LICENSE" "project.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/common-clj/" (23960 57093 568900 882000) "src/" ".git/" "docker-compose.yml" ".gitignore" "README.md" "pom.xml" ".nrepl-port" "resources/" "target/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "pom.xml.asc" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/common-kafka/" (24170 18120 292530 362000) "src/" ".circleci/" ".git/" ".github/" "nu-build/" ".gitignore" "README.md" ".nrepl-port" "resources/" "integration/" ".cljfmt-indents.edn" "USAGE.md" "target/" "config/" "CHANGELOG.md" "test/" "project.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/components/producer/" (23951 44173 240171 681000) "in_memory_producer_test.clj" "kafka_producer_test.clj" "../" "./")
+ ("/Users/lucas.mafra/.m2/repository/" (24170 12600 125752 700000) "common-test/" "common-graphql/" "potemkin/" "funcool/" "refactor-nrepl/" "common-datomic/" "flare/" "finagle-clojure/" "com/" "colorize/" "clj-archaius/" "zookeeper-clj/" "commons-configuration/" "midje/" "inflections/" "common-core/" "clj-tuple/" "clj-jwt/" "common-etl-spec/" "commons-beanutils/" "hiccup/" "ns-tracker/" "mvxcvi/" "clj-http-fake/" "state-flow-helpers/" "common-rollout/" "tigris/" "riemann-clojure-client/" "crypto-random/" "ring/" "jline/" "args4j/" "selmer/" "sachem/" "cheshire/" "nubank/" "br/" "clj-http/" "de/" "commons-cli/" "lucasmafra/" "joda-time/" "cljdev/" "common-repl/" "clojure-complete/" "commons-digester/" "environ/" "common-kafka/" "clj-antlr/" "commons-io/" "http-kit/" "clj-time/" "common-zookeeper/" "metosin/" "riddley/" "iapetos/" "javax/" "common-io/" "manifold/" "common-http-client/" "jonase/" "common-sfn/" "venantius/" "mockfn/" "lein-kibit/" "pandect/" "nu-test/" "lein-cloverage/" "software/" "bultitude/" "common-db/" "fipp/" "common-docstore/" "camel-snake-kebab/" "faker/" "prone/" "common-schemata/" "less-awful-ssl/" "nu-faraday/" "commons-lang/" "common-finagle/" "io/" "robert/" "marick/" "crypto-equality/" "co/" "common-metrics/" "json-html/" "common-iso8583/" "cljfmt/" "alumbra/" "ch/" "lein-vanity/" "claro/" "lein-ancient/" "rewrite-cljs/" "org/" "nsorg/" "lm-app/" "commons-collections/" "clojure/" "lein-cljfmt/" "commons-logging/" "meta-merge/" "rewrite-clj/" "slingshot/" "common-xml/" "clj-kondo/" "commons-fileupload/" "common-crypto/" "hiccups/" "net/" "bytebuffer/" "clojure-term-colors/" "prismatic/" "invariant/" "noencore/" "instaparse/" "grimradical/" "cider/" "nano-id/" "common-i18n/" "nu-specs/" "clansi/" "common-downloader/" "s3-wagon-private/" "sachem-interface/" "dynapath/" "commons-codec/" "nrepl/" "lein-nsorg/" "common-redis/" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/components/" (23957 20856 940093 263000) "docstore_client/" "consumer/" "counter/" "http_server/" "config/" "logger/" "producer/" "http_client/" "../" "./")
+ ("/Users/lucas.mafra/.m2/repository/common-kafka/" (24157 15530 578907 477000) "common-kafka/" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/src/settlement/" (23947 43775 180351 135000) "system.clj" "domain/" "ports/" "controllers/" "schemata/" "../" "./")
+ ("/Users/lucas.mafra/.m2/repository/common-kafka/common-kafka/" (24169 32814 571352 592000) "10.62.0-beta/" "10.65.0/" "10.59.0/" "10.28.1/" "10.62.0/" "10.18.0/" "10.53.14/" "10.63.0/" "10.61.4/" "10.42.0/" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/src/" (23947 43775 179282 621000) "settlement/" "../" "./")
+ ("/Users/lucas.mafra/.m2/repository/common-kafka/common-kafka/10.65.0/" (24169 32827 518312 541000) "common-kafka-10.65.0.pom.sha1" "_remote.repositories" "common-kafka-10.65.0.pom" "common-kafka-10.65.0.jar.sha1" "common-kafka-10.65.0.jar" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/" (23960 47050 370053 149000) "src/" ".gitignore" "README.md" ".nrepl-port" "resources/" "target/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/the-smith/src/the_smith/" (24169 34775 44104 150000) "config.clj" "controllers/" "service.clj" "schemata/" "db/" "server.clj" "adapters/" "logic/" "diplomat/" "components.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/yellow-pages/postman/postman/" (23955 37699 592187 338000) "republish_discover_contacts.clj" "new_discoverable_profile.clj" "migrations.clj" "aux/" "discover_contacts.clj" "batch.clj" "contact_found.clj" "create_contacts.clj" "metrics.clj" "owner_settings.clj" "version.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/" (24158 36478 116159 623000) "lucasmafra/" "flutter/" "fuzzy/" "comigor/" "playground/" "nu/" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/components/http_client/" (23951 44359 364677 190000) "in_memory_http_client_test.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/warriv/" (24169 33373 569242 628000) "src/" ".circleci/" "e2e/" ".git/" ".github/" ".gitignore" "README.md" "start" ".nrepl-port" "postman/" "repl" "resources/" ".cljfmt-indents.edn" "target/" "config/" "test/" "LICENSE" "contract/" "project.clj" "examples.edn" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/" (23951 44173 240713 658000) "time_test.clj" "generators_test.clj" "lib/" "coercion_test.clj" "components/" "json_test.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/warriv/resources/" (24169 33125 435930 374000) "sachem.edn" "warriv_config.json.base" "contract/" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/" (23951 44173 238165 424000) "common_clj/" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/horadric/" (24169 32837 906022 626000) "src/" ".circleci/" "e2e/" ".git/" ".github/" "nu-build/" ".gitignore" "README.md" "start" ".nrepl-port" "postman/" "repl" "resources/" ".cljfmt-indents.edn" "target/" "Dockerfile" "config/" "test/" "LICENSE" "contract/" "project.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/" (23951 44173 238004 435000) "user.clj" "common_clj/" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/horadric/resources/" (24169 32790 865820 297000) "sachem.edn" "horadric_config.json.base" "service_config.json" "horadric_write_config.json.base" "contract/" "logback.xml" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/" (23951 44173 237903 614000) "uuid.clj" "schemata/" "lib/" "json.clj" "time.clj" "generators.clj" "components/" "test_helpers.clj" "coercion.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/griswold/" (24169 31137 537439 843000) "src/" ".circleci/" "e2e/" ".git/" ".github/" "nu-build/" ".gitignore" "README.md" "start" ".nrepl-port" "postman/" "repl" "resources/" ".cljfmt-indents.edn" "target/" "config/" "test/" "LICENSE" "contract/" "project.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/components/" (23951 44173 236178 227000) "docstore_client/" "consumer/" "counter/" "http_server/" "config/" "logger/" "producer/" "http_client/" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/griswold/src/" (24112 47529 421872 603000) "griswold/" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/components/http_client/" (23951 44173 235336 476000) "in_memory_http_client.clj" "protocol.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/griswold/src/griswold/" (24169 30947 754633 894000) "config.clj" "controllers/" "service.clj" "schemata/" "db/" "server.clj" "adapters/" "interceptors.clj" "models/" "logic/" "diplomat/" "components.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/" (23951 44170 569044 671000) "common-clj/" "payroll-clj/" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/griswold/src/griswold/diplomat/" (24169 30947 753414 711000) "http.clj" "producer.clj" "consumer.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/payroll-clj/" (23947 43775 178289 454000) ".git/" "payroll-services.png" "docker-compose.yml" ".gitignore" "README.md" "settlement/" "ledger/" "../" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/test/flows/" (24164 3917 576500 80000) "search_trace.clj" "aux/" "get_trace_graph.clj" "get_services.clj" "get_operations.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/payroll-clj/settlement/test/" (23947 43775 180817 333000) "flows/" "settlement/" "../" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/clojure_test_helpers/" (24163 49702 826950 993000) "test.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/yellow-pages/test/yellow_pages/logic/" (23948 57746 362836 221000) "batch_test.clj" "phone_test.clj" "email_test.clj" "contact_test.clj" "metrics_test.clj" "customer_test.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/" (24163 41879 198855 994000) "uuid.clj" "json.clj" "http_server/" "generators.clj" "schema/" "state_flow_helpers/" "misc.clj" "config/" "humanize.clj" "http_client/" "coercion.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/yellow-pages/test/yellow_pages/" (23922 33590 442355 25000) "db/" "adapters/" "service_test.clj" "config_test.clj" "logic/" "../" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/" (24163 42048 468295 194000) "src/" ".git/" "dev/" ".github/" ".gitignore" "logs/" "README.md" "pom.xml" ".nrepl-port" "resources/" "target/" ".clj-kondo/" "config/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "pom.xml.asc" ".lein-failures" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/yellow-pages/test/" (23922 33590 438779 809000) "yellow_pages/" "logback-test.xml" "../" "./")
+ ("/Users/lucas.mafra/.emacs.d/" (24163 36084 769485 461000) ".lsp-session-v1" ".smex-items" "cider-history" "backups/" "themes/" ".git/" "elpa/" ".gitignore" ".recentf" "README.md" "init.el" "auto-save-list/" "projectile-bookmarks.eld" "customizations/" ".mc-lists.el" "ido.last" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/yellow-pages/" (23950 21310 441587 720000) "src/" ".circleci/" "e2e/" ".git/" ".github/" ".gitignore" "README.md" "docs/" ".nrepl-port" "postman/" "resources/" ".cljfmt-indents.edn" "target/" "Dockerfile" "config/" "test/" "yellow-pages-optimized-deployment-s0.yaml" "contract/" "project.clj" "../" "./")
+ ("/Users/lucas.mafra/eclipse/" (24057 10328 424036 58000) "java-2019-09/" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/yellow-pages/src/yellow_pages/" (23950 15767 326554 99000) "config.clj" "controllers/" "service.clj" "schemata/" "db/" "server.clj" "adapters/" "models/" "logic/" "diplomat/" "components.clj" "../" "./")
+ ("/Users/lucas.mafra/.m2/" (24156 30347 114974 717000) "repository/" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/yellow-pages/src/yellow_pages/controllers/" (23950 15767 328133 347000) "contact.clj" "owner.clj" "batch.clj" "migration.clj" "../" "./")
+ ("/Users/lucas.mafra/.m2/repository/nubank/" (24158 53476 613802 590000) "selvage/" "itaipu-dataset-customer-info-by-cpf/" "matcher-combinators/" "state-flow/" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/yellow-pages/postman/" (23922 33590 420254 401000) "postman/" "../" "./")
+ ("/Users/lucas.mafra/.m2/repository/nubank/state-flow/" (24159 9074 130528 613000) "2.0.4/" "2.2.4/" "2.1.5/" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/yellow-pages/src/" (23922 33590 426461 636000) "yellow_pages/" "../" "./")
+ ("/Users/lucas.mafra/.m2/repository/nubank/state-flow/2.2.4/" (24156 30504 710991 253000) "_remote.repositories" "state-flow-2.2.4.jar" "state-flow-2.2.4.jar.sha1" "state-flow-2.2.4.pom" "state-flow-2.2.4.pom.sha1" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/yellow-pages/src/yellow_pages/diplomat/" (23922 33590 432532 638000) "producer.clj" "consumer.clj" "http_out.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/domain/" (24163 43458 620959 427000) "trace_search.clj" "trace_graph.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/griswold/" (23921 11656 313601 421000) "src/" ".circleci/" "e2e/" ".git/" ".github/" ".gitignore" "README.md" "start" ".nrepl-port" "postman/" "repl" "resources/" ".cljfmt-indents.edn" "target/" "Dockerfile" "config/" "test/" "LICENSE" "contract/" "project.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/" (24163 43226 889418 721000) "system.clj" "domain/" "ports/" "controllers/" "schemata/" "adapters/" "logic/" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/griswold/test/griswold/adapters/" (23921 14026 920267 259000) "frequent_transfers_test.clj" "lock_request_test.clj" "request_source_test.clj" "transfer_window_test.clj" "source_test.clj" "bill_payment_request_test.clj" "savings_account_test.clj" "sale_test.clj" "emergency_liquidation_request_test.clj" "offer_test.clj" "transfer_out_request_test.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/logic/" (24163 43289 683569 416000) "trace_graph.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/griswold/src/griswold/adapters/" (23921 14026 918765 682000) "offer.clj" "sale.clj" "request_source.clj" "auto_bill_payment.clj" "bill_payment_request.clj" "emergency_liquidation_request.clj" "frequent_transfers.clj" "transfer_window.clj" "source.clj" "transfer_out_request.clj" "savings_account.clj" "lock_request.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/test/atlas/domain/" (24156 59738 750726 949000) "trace_search_test.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/yellow-pages/src/prod/" (23921 35827 765931 685000) "yellow_pages_config.json" "../" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/controllers/" (24163 37274 892692 348000) "service.clj" "trace_search.clj" "operation.clj" "trace_graph.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/conrado/src/conrado/" (23921 15342 289379 359000) "config.clj" "protocols/" "service.clj" "server.clj" "controller.clj" "components/" "logic/" "document_store/" "metrics.clj" "diplomat/" "components.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/lib/" (24163 38003 652080 861000) "coercion.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/griswold/test/griswold/" (23920 1046 570469 482000) "controllers/" "fixtures/" "db/" "adapters/" "service_test.clj" "config_test.clj" "logic/" "diplomat/" "../" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/" (24163 36115 169536 898000) "src/" ".git/" "dev/" ".github/" ".gitignore" "logs/" "README.md" "pom.xml" ".nrepl-port" "resources/" "target/" ".clj-kondo/" "config/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" ".lein-failures" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/griswold/test/" (23920 1046 570668 969000) "griswold/" "logback-test.xml" "../" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/schemata/" (24156 28029 983372 438000) "service.clj" "trace_search.clj" "operation.clj" "jaeger.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/griswold/postman/" (23920 1046 542226 580000) "postman_main.clj" "postman/" "../" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/ports/" (24154 51023 390156 327000) "http_client.clj" "http_server.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/griswold/postman/postman/" (23920 11688 149672 91000) "lending_deposit_created.clj" "renewal_sale.clj" "transfer_out_reversal.clj" "aux/" "warning.clj" "auto_bill_payment.clj" "transfer_out_failure_sale.clj" "bill_payment_request.clj" "emergency_liquidation_request.clj" "frequent_transfers.clj" "default_sale.clj" "transfer_out_window.clj" "forced_bill_payment_request.clj" "scheduled_transfer_out.clj" "transfer_out_request.clj" "store_money_transaction.clj" "savings_account.clj" "surrogate_authorization.clj" "retrieve_money_transaction.clj" "lock_request.clj" "lock_liquidation.clj" "forced_transfer_out_request.clj" "company_customer.clj" "liquidity_offer.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/target/" (24153 32090 380770 376000) "default/" "stale/" "classes/" "default+test+test/" "atlas-0.1.0-SNAPSHOT.jar" "default+repl/" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/griswold/src/griswold/schemata/" (23920 1046 564662 945000) "sale_source.clj" "offer.clj" "sale.clj" "request_source.clj" "deposit.clj" "auto_bill_payment.clj" "transfer_window.clj" "authorization.clj" "transfer_out_request.clj" "wire/" "savings_account.clj" ".DS_Store" "customer.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/src/" (24153 24726 149585 155000) "atlas/" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/griswold/src/" (23920 1046 548565 354000) "griswold/" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/social/" (24140 35536 744709 806000) "src/" ".circleci/" "e2e/" ".git/" ".github/" "nu-build/" ".gitignore" "README.md" "lint.clj" "start" ".nrepl-port" "postman/" "repl" "resources/" ".cljfmt-indents.edn" "target/" "config/" "test/" "LICENSE" "contract/" "project.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/griswold/src/griswold/diplomat/" (23920 11688 150831 309000) "http.clj" "producer.clj" "consumer.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/social/src/" (24102 8397 425942 441000) "social/" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/griswold/src/griswold/controllers/" (23920 11688 150498 969000) "bank_account.clj" "offer.clj" "sale.clj" "warning.clj" "bill_payment_request.clj" "emergency_liquidation_request.clj" "frequent_transfers.clj" "migration.clj" "transfer_window.clj" "transfer_out_request.clj" "savings_account.clj" "savings_authorization.clj" "lock_request.clj" "company_customer.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/social/src/social/" (24140 35440 782179 105000) "config.clj" "controllers/" "service.clj" "schemata/" "db/" "server.clj" "adapters/" "models/" "logic/" "diplomat/" "components.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/nu/griswold/src/griswold/" (23920 11688 151111 967000) "config.clj" "controllers/" "service.clj" "schemata/" "db/" "server.clj" "adapters/" "models/" "logic/" "diplomat/" "components.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/horcrux/src/horcrux/controller/" (24158 30686 185706 577000) "money_request.clj" "split_transaction.clj" "share.clj" "savings_account.clj" "../" "./")
 
- ("/Users/lucas.mafra/.lein/" (23918 30377 804595 552000) "self-installs/" "profiles.clj" "../" "./")
+ ("/Users/lucas.mafra/dev/nu/horcrux/src/horcrux/schemata/customers/" (24157 37162 846791 347000) "person.clj" "../" "./")
 
- ("/home/lucas/dev/common-clj/src/common_clj/components/http_server/" (23907 61861 382442 126000) "../" "http_client.clj" "./" "protocol.clj" "http_server.clj")
+ ("/Users/lucas.mafra/dev/nu/customers/src/customers/" (24158 30849 567118 518000) "config.clj" "service_admin.clj" "controllers/" "i18n/" "service.clj" "schemata/" "db/" "server.clj" "components/" "adapters/" "republish/" "exceptions/" "models/" "logic/" "crypt.clj" "metrics.clj" "diplomat/" "impl.clj" "components.clj" "interceptors/" "metrics/" "../" "./")
 
- ("/home/lucas/dev/common-clj/test/common_clj/components/" (23907 61405 991304 340000) "../" "consumer/" "producer/" "./" "http_server/" "docstore_client/" "config/" "logger/" "counter/")
+ ("/Users/lucas.mafra/dev/nu/horcrux/test/horcrux/db/datomic/" (24102 9173 581365 725000) "split_transaction_test.clj" "savings_account_test.clj" "share_test.clj" "../" "./")
 
- ("/home/lucas/dev/common-clj/test/common_clj/components/http_server/" (23907 62346 494949 709000) "../" "http_server_test.clj" "./")
+ ("/Users/lucas.mafra/dev/nu/horcrux/test/horcrux/db/" (24042 29981 942929 499000) "datomic/" "../" "./")
 
- ("/home/lucas/dev/common-clj/" (23905 14175 237208 612000) "LICENSE" "../" ".gitignore" "src/" "CHANGELOG.md" "target/" "./" "README.md" ".lein-failures" "pom.xml.asc" "pom.xml" ".git/" ".nrepl-port" "project.clj" "test/" "resources/" "zk-single-kafka-single/")
+ ("/Users/lucas.mafra/dev/nu/horcrux/test/horcrux/" (24092 47912 847658 109000) "db/" "service_test.clj" "config_test.clj" "adapter/" "../" "./")
 
- ("/home/lucas/dev/common-clj/src/common_clj/schemata/" (23901 64192 136462 736000) "config.clj" "../" "consumer.clj" "./" "producer.clj")
+ ("/Users/lucas.mafra/dev/nu/horcrux/test/" (24042 29981 943435 953000) "horcrux/" "logback-test.xml" "../" "./")
 
- ("/home/lucas/dev/common-clj/src/common_clj/" (23903 20424 724068 46000) "../" "test_helpers.clj" "components/" "lib/" "./" "schemata/" "uuid.clj")
+ ("/Users/lucas.mafra/dev/nu/horcrux/src/horcrux/diplomat/" (24157 32492 770131 943000) "producer.clj" "consumer.clj" "http_out.clj" "../" "./")
 
- ("/home/lucas/dev/common-clj/src/common_clj/components/" (23907 16795 490152 946000) "../" "consumer/" "producer/" "./" "http_server/" "docstore_client/" "config/" "logger/" "counter/")
+ ("/Users/lucas.mafra/dev/nu/horcrux/src/horcrux/schemata/itaipu/" (24157 17549 26146 229000) "customer_info_by_cpf.clj" "../" "./")
 
- ("/home/lucas/dev/common-clj/src/common_clj/components/config/" (23897 25015 713152 860000) "../" "edn_config.clj" "in_memory_config.clj" "./" "protocol.clj")
+ ("/Users/lucas.mafra/dev/nu/horcrux/src/horcrux/schemata/" (24157 17549 26313 739000) "itaipu/" "split_transaction.clj" "social/" "beggar/" "share_recipient.clj" "share.clj" "savings_account.clj" "new_split_transaction_share.clj" "savings_account_share.clj" "customers/" "../" "./")
 
- ("/home/lucas/dev/common-clj/src/common_clj/components/docstore_client/" (23903 7883 197411 992000) "../" "./" "dynamo_docstore_client.clj" "protocol.clj")
+ ("/Users/lucas.mafra/dev/nu/horcrux/src/horcrux/schemata/social/" (24157 17549 26356 69000) "contact.clj" "../" "./")
 
- ("/home/lucas/dev/payroll-clj/ledger/src/ledger/controllers/" (23902 59844 728774 767000) "../" "./")
+ ("/Users/lucas.mafra/dev/nu/horcrux/postman/postman/" (24157 22104 346681 864000) "aux/" "money_request.clj" "split_transaction.clj" "savings_account.clj" "version.clj" "../" "./")
 
- ("/home/lucas/dev/payroll-clj/ledger/src/ledger/ports/" (23902 64351 449079 361000) "../" "consumer.clj" "./")
+ ("/Users/lucas.mafra/dev/nu/horcrux/" (24157 15784 899700 346000) "src/" ".circleci/" "e2e/" ".git/" ".github/" ".gitignore" "README.md" "mortician-result/" ".nrepl-port" "postman/" "resources/" ".cljfmt-indents.edn" "target/" "config/" "test/" "contract/" "project.clj" "../" "./")
 
- ("/home/lucas/dev/payroll-clj/ledger/test/ledger/" (23902 59844 724774 637000) "../" "core_test.clj" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/schema/" (24156 26265 516867 573000) "core.clj" "../" "./")
 
- ("/home/lucas/dev/payroll-clj/ledger/src/ledger/adapters/" (23903 16957 72930 137000) "../" "ledger.clj" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/aux/" (24156 20557 927874 22000) "init.clj" "http_server.clj" "../" "./")
 
- ("/home/lucas/dev/common-clj/src/" (23902 56795 247709 35000) "../" "./" "user.clj" "common_clj/")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/config/" (24156 25479 820797 294000) "edn_config.clj" "protocol.clj" "schemata.clj" "in_memory_config.clj" "../" "./")
 
- ("/home/lucas/dev/payroll-clj/ledger/src/ledger/" (23903 14501 603858 318000) "../" "core.clj" "components/" "system.clj" "adapters/" "./" "schemata/" "ports/" "domain/" "controllers/")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/" (24156 25453 440887 109000) "generators_test.clj" "lib/" "http_server/" "coercion_test.clj" "json_test.clj" "config/" "http_client/" "../" "./")
 
- ("/home/lucas/dev/payroll-clj/ledger/src/ledger/components/" (23903 14501 603858 318000) "../" "ledger_repository/" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/http_client/" (24156 20557 928303 195000) "http_client_test.clj" "interceptors/" "../" "./")
 
- ("/home/lucas/dev/payroll-clj/ledger/src/ledger/components/ledger_repository/" (23903 15377 307121 716000) "../" "./" "ledger_repository.clj" "protocol.clj")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/http_client/interceptors/" (24155 59750 88877 359000) "query_params_test.clj" "handler_test.clj" "coercer_test.clj" "json_serializer_test.clj" "json_deserializer_test.clj" "path_params_replacer_test.clj" "url_builder_test.clj" "../" "./")
 
- ("/home/lucas/dev/common-clj/test/common_clj/" (23902 63154 396298 17000) "../" "components/" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/config/" (24156 21090 600098 920000) "edn_config_test.clj" "../" "./")
 
- ("/home/lucas/dev/common-clj/resources/" (23895 62919 371721 508000) "../" "fixtures/" "./" "data_readers.clj")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/http_server/" (24156 20557 927098 774000) "schemata.clj" "default_interceptors.clj" "helpers.clj" "http_server.clj" "interceptors/" "../" "./")
 
- ("/home/lucas/dev/common-clj/resources/fixtures/" (23895 63021 997679 110000) "../" "app.edn" "invalid_app.edn" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/resources/fixtures/" (24107 26860 927000 851000) "app.edn" "invalid_app.edn" "../" "./")
 
- ("/home/lucas/dev/payroll-clj/ledger/resources/" (23902 59844 724774 637000) "../" "./" "data_readers.clj")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/resources/" (24107 26860 926828 961000) "fixtures/" "data_readers.clj" "../" "./")
 
- ("/home/lucas/dev/payroll-clj/ledger/src/ledger/schemata/" (23902 59844 728774 767000) "../" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/" (24154 49115 163997 531000) "lm-app-template/" "atlas/" "latinize/" "common-clj/" "flame/" "atlas-ui/" "emacs-config/" "datomic-hello/" "fuzzy/" "atlas-old/" "go-flutter-share/" "../" "./")
 
- ("/home/lucas/dev/" (23902 59810 891679 588000) "cubo-api/" "../" "pcs3746-sistemas-operacionais/" "cubo-admin/" "serverless-prisma/" "docker-compose-letsencrypt-nginx-proxy-companion/" "serverless-image-handler/" "common-clj/" "Twidere-Thumbor-Heroku/" "./" "gcc-arm/" "cubo-site/" "emacs/" "cubo-blog/" "payroll-clj/" "lm-app-template/" "Heroku-WordPress/" "emacs-config/")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/http_server/" (24156 20557 929240 378000) "http_server_test.clj" "interceptors/" "../" "./")
 
- ("/home/lucas/dev/payroll-clj/" (23902 59844 720774 507000) "../" "ledger/" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/components/http_server/" (24156 9519 875342 363000) "../" "./")
 
- ("/home/lucas/dev/payroll-clj/ledger/" (23902 63467 784852 905000) "LICENSE" "../" ".gitignore" "src/" "CHANGELOG.md" "target/" "./" "README.md" ".nrepl-port" "project.clj" "test/" "resources/")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/components/" (24155 59750 54337 395000) "docstore_client/" "consumer/" "counter/" "http_server/" "config/" "logger/" "producer/" "../" "./")
 
- ("/home/lucas/dev/payroll-clj/ledger/test/" (23902 61492 20787 320000) "../" "ledger/" "flows/" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/components/" (24155 59750 54086 431000) "docstore_client/" "consumer/" "counter/" "http_server/" "config/" "logger/" "producer/" "../" "./")
 
- ("/home/lucas/dev/payroll-clj/ledger/test/flows/" (23902 63586 922925 33000) "../" "create_ledger_entry.clj" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/components/http_server/" (24156 9503 252637 250000) "../" "./")
 
- ("/home/lucas/dev/payroll-clj/ledger/src/" (23902 59844 724774 637000) "../" "ledger/" "./" "user.clj")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/http_server/interceptors/" (24155 59750 72028 824000) "json_serializer.clj" "content_type.clj" "query_params_coercer.clj" "context_initializer.clj" "helpers.clj" "path_params_coercer.clj" "error.clj" "body_coercer.clj" "../" "./")
 
- ("/home/lucas/dev/common-clj/test/common_clj/components/producer/" (23902 1445 546891 205000) "../" "in_memory_producer_test.clj" "kafka_producer_test.clj" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/http_client/" (24155 60073 757550 833000) "http_client.clj" "protocol.clj" "schemata.clj" "interceptors/" "../" "./")
 
- ("/home/lucas/dev/common-clj/src/common_clj/components/producer/" (23902 1473 727695 675000) "../" "kafka_producer.clj" "./" "in_memory_producer.clj" "protocol.clj")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/schemata/" (24154 53764 304109 717000) "config.clj" "producer.clj" "http_client.clj" "consumer.clj" "http_server.clj" "../" "./")
 
- ("/home/lucas/dev/common-clj/test/common_clj/components/consumer/" (23900 8034 374647 598000) "../" "./" "in_memory_consumer_test.clj" "kafka_consumer_test.clj")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/.github/workflows/" (24155 12418 296519 147000) "clojure.yml" "../" "./")
 
- ("/home/lucas/dev/common-clj/src/common_clj/components/consumer/" (23900 14136 46213 340000) "../" "in_memory_consumer.clj" "./" "kafka_consumer.clj" "protocol.clj")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/config/" (24154 60361 324209 497000) "logback.xml" "../" "./")
 
- ("/home/lucas/dev/payroll-clj/common/src/common/components/" (23872 12593 949864 873000) "../" "consumer.clj" "./" "producer.clj")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/" (24137 23250 551926 471000) "common_clj/" "../" "./")
 
- ("/home/lucas/dev/common-clj/test/" (23895 2125 602727 914000) "../" "./" "common_clj/")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/dev/" (24154 47836 826645 461000) "user.clj" "dev.clj" "../" "./")
 
- ("/home/lucas/dev/myproject/" (23894 58989 659563 549000) "LICENSE" "../" ".gitignore" "src/" "CHANGELOG.md" "./" "README.md" "project.clj" "test/" "resources/")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/.github/workflows/" (24153 57361 915912 116000) "clojure.yml" "clojure_linter.yml" "../" "./")
 
- ("/home/lucas/dev/lm-app-template/resources/leiningen/new/lm_app/" (23894 58848 782946 775000) "LICENSE" "../" "foo.clj" "core.clj" "test.clj" "gitignore" "./" "README.md" "project.clj")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/test/atlas/adapters/" (24153 52561 722960 298000) "trace_search_test.clj" "../" "./")
 
- ("/home/lucas/dev/lm-app-template/" (23894 58343 607215 333000) "LICENSE" "../" ".gitignore" "src/" "CHANGELOG.md" "target/" "./" "README.md" "pom.xml" ".hgignore" "project.clj" "resources/")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/.clj-kondo/" (24153 41172 668151 881000) ".cache/" "config.edn" "../" "./")
 
- ("/home/lucas/dev/lm-app-template/src/" (23894 54861 87854 479000) "../" "leiningen/" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/test/atlas/" (24153 24726 163093 944000) "domain/" "adapters/" "../" "./")
 
- ("/home/lucas/dev/lm-app-template/src/leiningen/" (23894 54861 87854 479000) "../" "new/" "./")
+ ("/usr/" (23941 32182 0 0) "share/" "lib/" "local/" "sbin/" "libexec/" "standalone/" "bin/" "../" "./")
 
- ("/home/lucas/dev/lm-app-template/src/leiningen/new/" (23894 57944 596987 739000) "../" "lm_app.clj" "./")
+ ("/dev/" (24140 34948 0 0) "ttys000" "ttys003" "ttys001" "nsmb0" "bpf4" "vboxnetctl" "tty.Bluetooth-Incoming-Port" "cu.Bluetooth-Incoming-Port" "uart.BLTH" "autofs_control" "autofs_homedirmounter" "autofs_notrigger" "autofs_nowait" "autofs" "vboxdrvu" "vboxdrv" "xcpm" "rdisk1s4" "disk1s4" "rdisk1s3" "disk1s3" "rdisk1s2" "disk1s2" "rdisk1s1" "disk1s1" "rdisk1" "disk1" "rdisk0s2" "disk0s2" "rdisk0s1" "disk0s1" "rdisk0" "disk0" "io8logtemp" "io8logmt" "io8log" "afsc_type5" "profile" "fbt" "machtrace" "systrace" "sdt" "lockstat" "dtracehelper" "dtrace" "urandom" "random" "fsevents" "bpf3" "bpf2" "bpf1" "bpf0" "ptmx" "ptywf" "ttywf" "ptywe" "ttywe" "ptywd" "ttywd" "ptywc" "ttywc" "ptywb" "ttywb" "ptywa" "ttywa" "ptyw9" "ttyw9" "ptyw8" "ttyw8" "ptyw7" "ttyw7" "ptyw6" "ttyw6" "ptyw5" "ttyw5" "ptyw4" "ttyw4" "ptyw3" "ttyw3" "ptyw2" "ttyw2" "ptyw1" "ttyw1" "ptyw0" "ttyw0" "ptyvf" "ttyvf" "ptyve" "ttyve" "ptyvd" "ttyvd" "ptyvc" "ttyvc" "ptyvb" "ttyvb" "ptyva" "ttyva" "ptyv9" "ttyv9" "ptyv8" "ttyv8" "ptyv7" "ttyv7" "ptyv6" "ttyv6" "ptyv5" "ttyv5" "ptyv4" "ttyv4" "ptyv3" "ttyv3" "ptyv2" "ttyv2" "ptyv1" "ttyv1" "ptyv0" "ttyv0" "ptyuf" "ttyuf" "ptyue" "ttyue" "ptyud" "ttyud" "ptyuc" "ttyuc" "ptyub" "ttyub" "ptyua" "ttyua" "ptyu9" "ttyu9" "ptyu8" "ttyu8" "ptyu7" "ttyu7" "ptyu6" "ttyu6" "ptyu5" "ttyu5" "ptyu4" "ttyu4" "ptyu3" "ttyu3" "ptyu2" "ttyu2" "ptyu1" "ttyu1" "ptyu0" "ttyu0" "ptytf" "ttytf" "ptyte" "ttyte" "ptytd" "ttytd" "ptytc" "ttytc" "ptytb" "ttytb" "ptyta" "ttyta" "ptyt9" "ttyt9" "ptyt8" "ttyt8" "ptyt7" "ttyt7" "ptyt6" "ttyt6" "ptyt5" "ttyt5" "ptyt4" "ttyt4" "ptyt3" "ttyt3" "ptyt2" "ttyt2" "ptyt1" "ttyt1" "ptyt0" "ttyt0" "ptysf" "ttysf" "ptyse" "ttyse" "ptysd" "ttysd" "ptysc" "ttysc" "ptysb" "ttysb" "ptysa" "ttysa" "ptys9" "ttys9" "ptys8" "ttys8" "ptys7" "ttys7" "ptys6" "ttys6" "ptys5" "ttys5" "ptys4" "ttys4" "ptys3" "ttys3" "ptys2" "ttys2" "ptys1" "ttys1" "ptys0" "ttys0" "ptyrf" "ttyrf" "ptyre" "ttyre" "ptyrd" "ttyrd" "ptyrc" "ttyrc" "ptyrb" "ttyrb" "ptyra" "ttyra" "ptyr9" "ttyr9" "ptyr8" "ttyr8" "ptyr7" "ttyr7" "ptyr6" "ttyr6" "ptyr5" "ttyr5" "ptyr4" "ttyr4" "ptyr3" "ttyr3" "ptyr2" "ttyr2" "ptyr1" "ttyr1" "ptyr0" "ttyr0" "ptyqf" "ttyqf" "ptyqe" "ttyqe" "ptyqd" "ttyqd" "ptyqc" "ttyqc" "ptyqb" "ttyqb" "ptyqa" "ttyqa" "ptyq9" "ttyq9" "ptyq8" "ttyq8" "ptyq7" "ttyq7" "ptyq6" "ttyq6" "ptyq5" "ttyq5" "ptyq4" "ttyq4" "ptyq3" "ttyq3" "ptyq2" "ttyq2" "ptyq1" "ttyq1" "ptyq0" "ttyq0" "ptypf" "ttypf" "ptype" "ttype" "ptypd" "ttypd" "ptypc" "ttypc" "ptypb" "ttypb" "ptypa" "ttypa" "ptyp9" "ttyp9" "ptyp8" "ttyp8" "ptyp7" "ttyp7" "ptyp6" "ttyp6" "ptyp5" "ttyp5" "ptyp4" "ttyp4" "ptyp3" "ttyp3" "ptyp2" "ttyp2" "ptyp1" "ttyp1" "ptyp0" "ttyp0" "pfm" "pf" "auditpipe" "auditsessions" "stderr" "stdout" "stdin" "fd/" "oslog_stream" "oslog" "klog" "zero" "null" "tty" "console" "../" "./")
 
- ("/home/lucas/dev/lm-app-template/resources/" (23894 54861 87854 479000) "../" "leiningen/" "./")
+ ("/Users/" (24083 33657 95139 659000) "lucas.mafra/" "Shared/" ".localized" "../" "./")
 
- ("/home/lucas/dev/lm-app-template/resources/leiningen/" (23894 54861 87854 479000) "../" "new/" "./")
+ ("/Users/lucas.mafra/.lein/" (24042 29747 96545 655000) "self-installs/" "profiles.clj" "../" "./")
 
- ("/home/lucas/dev/lm-app-template/resources/leiningen/new/" (23894 54861 87854 479000) "../" "lm_app/" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/test/" (24153 24726 162858 484000) "flows/" "atlas/" "../" "./")
 
- ("/home/lucas/dev/payroll-clj/ledger/test/ledger/domain/" (23893 61828 756789 789000) "../" "ledger_test.clj" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/adapters/" (24151 64520 71661 246000) "search_traces.clj" "../" "./")
 
- ("/home/lucas/dev/payroll-clj/common/" (23893 60938 17435 141000) "LICENSE" "../" ".gitignore" "src/" "CHANGELOG.md" "target/" "./" "README.md" "doc/" ".hgignore" ".nrepl-port" "project.clj" "test/" "resources/" "zk-single-kafka-single/" "docker-compose.yml")
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/dev/" (24153 4466 55693 334000) "user.clj" "dev.clj" "../" "./")
 
- ("/home/lucas/dev/payroll-clj/common/src/" (23871 45570 467347 436000) "../" "./" "common/")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/http_server/interceptors/" (24152 41090 873570 478000) "path_params_coercer_test.clj" "error_test.clj" "body_coercer_test.clj" "json_serializer_test.clj" "content_type_test.clj" "query_params_coercer_test.clj" "../" "./")
 
- ("/home/lucas/dev/payroll-clj/common/src/common/" (23893 60926 412906 158000) "../" "core.clj" "components/" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/http_client/interceptors/" (24152 15734 160138 880000) "json_serializer.clj" "handler.clj" "coercer.clj" "with_mock_calls.clj" "path_params_replacer.clj" "request_body.clj" "json_deserializer.clj" "helpers.clj" "url_builder.clj" "query_params.clj" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

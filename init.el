@@ -6,8 +6,9 @@
 (require 'package)
 (add-to-list 'package-archives
              '("tromey" . "http://tromey.com/elpa/") t)
+
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+	      '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (add-to-list 'package-archives
              '("melpa-stable" . "http://stable.melpa.org/packages/") t)
 
@@ -142,10 +143,11 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(cljr-clojure-test-namespace-under-test-alias "nut")
  '(coffee-tab-width 2)
  '(package-selected-packages
    (quote
-    (clj-refactor js-comint neotree emmet-mode flycheck web-mode add-node-modules-path prettier-js js-import company rjsx-mode sesman magit tagedit rainbow-delimiters projectile smex ido-completing-read+ cider clojure-mode-extra-font-locking clojure-mode paredit exec-path-from-shell))))
+    (impatient-mode flycheck-clj-kondo slamhound company-lsp lsp-ui use-package lsp-mode sbt-mode scala-mode clj-refactor js-comint neotree emmet-mode flycheck web-mode add-node-modules-path prettier-js js-import company rjsx-mode sesman magit tagedit rainbow-delimiters projectile smex ido-completing-read+ cider clojure-mode-extra-font-locking clojure-mode paredit exec-path-from-shell))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -207,3 +209,87 @@
 
 (require 'ace-window)
 (global-set-key (kbd "M-o") 'ace-window)
+
+
+; metals
+(require 'package)
+
+;; Add melpa to your packages repositories
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+
+(package-initialize)
+
+;; Install use-package if not already installed
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package))
+
+(require 'use-package)
+
+;; Enable defer and ensure by default for use-package
+;; Keep auto-save/backup files separate from source code:  https://github.com/scalameta/metals/issues/1027
+(setq use-package-always-defer t
+      use-package-always-ensure t
+      backup-directory-alist `((".*" . ,temporary-file-directory))
+      auto-save-file-name-transforms `((".*" ,temporary-file-directory t)))
+
+;; Enable scala-mode and sbt-mode
+(use-package scala-mode
+  :mode "\\.s\\(cala\\|bt\\)$")
+
+(use-package sbt-mode
+  :commands sbt-start sbt-command
+  :config
+  ;; WORKAROUND: https://github.com/ensime/emacs-sbt-mode/issues/31
+  ;; allows using SPACE when in the minibuffer
+  (substitute-key-definition
+   'minibuffer-complete-word
+   'self-insert-command
+   minibuffer-local-completion-map)
+   ;; sbt-supershell kills sbt-mode:  https://github.com/hvesalai/emacs-sbt-mode/issues/152
+   (setq sbt:program-options '("-Dsbt.supershell=false"))
+)
+
+;; Enable nice rendering of diagnostics like compile errors.
+(use-package flycheck
+  :init (global-flycheck-mode))
+
+(use-package lsp-mode
+  ;; Optional - enable lsp-mode automatically in scala files
+  :hook (scala-mode . lsp)
+  :config (setq lsp-prefer-flymake nil))
+
+(use-package lsp-ui)
+
+;; lsp-mode supports snippets, but in order for them to work you need to use yasnippet
+;; If you don't want to use snippets set lsp-enable-snippet to nil in your lsp-mode settings
+;;   to avoid odd behavior with snippets and indentation
+(use-package yasnippet)
+
+;; Add company-lsp backend for metals
+(use-package company-lsp)
+
+(defun cider-reset ()
+  (interactive)
+  (save-some-buffers 'no-confirm)
+  (cider-switch-to-repl-buffer)
+  (cider-interactive-eval "(reset)")
+  (cider-switch-to-last-clojure-buffer)
+  (cider-interactive-eval "(println :ok)"))
+
+(global-set-key (kbd "C-c r") 'cider-reset)
+
+(add-hook 'cider-mode-hook (lambda ()
+                             (add-to-list 'cider-test-defining-forms "defflow")
+                             (add-to-list 'cider-test-defining-forms "my-test")))
+
+(defun cider-test-save-and-run ()
+  (interactive)
+  (save-some-buffers 'no-confirm)
+  (cider-eval-buffer)
+  (cider-test-run-test))
+
+(global-set-key (kbd "C-c t") 'cider-test-save-and-run)
+
+(require 'flycheck-clj-kondo)
+(add-hook 'after-init-hook #'global-flycheck-mode)
