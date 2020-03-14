@@ -68,7 +68,7 @@
  ("/Users/lucas.mafra/dev/nu/griswold/src/" . "griswold/")
  ("/Users/lucas.mafra/dev/lucasmafra/" . "atlas-ui/")
  ("/Users/lucas.mafra/dev/" . "lucasmafra/")
- ("/Users/lucas.mafra/" . "dev/")
+ ("/Users/lucas.mafra/" . ".emacs.d/")
  ("/home/lucas/dev/payroll-clj/ledger/test/" . "ledger/")
  ("/home/lucas/dev/common-clj/test/common_clj/" . "components/")
  ("/home/lucas/dev/payroll-clj/ledger/src/ledger/" . "controllers/")
@@ -130,11 +130,11 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/lucas.mafra/.emacs.d/"
  "/Users/lucas.mafra/dev/playground/svg-exploration/"
  "/Users/lucas.mafra/dev/lucasmafra/atlas-ui/public/"
  "/Users/lucas.mafra/Desktop/"
  "/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/clojure_test_helpers/"
- "/Users/lucas.mafra/.emacs.d/"
  "/Users/lucas.mafra/dev/lucasmafra/atlas/test/atlas/domain/"
  "/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/logic/"
  "/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/lib/"
@@ -184,11 +184,11 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "init.el"
  "exploration.html"
  "index.html"
  "request_transfer_out.json"
  "test.clj"
- "init.el"
  "trace_graph_test.clj"
  "trace_graph.clj"
  "coercion.clj"
@@ -198,13 +198,15 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/lucas.mafra/dev/playground/svg-exploration/" (24172 58326 635392 628000) "exploration.html" "package.json" "index.html" "../" "./")
+ ("/Users/lucas.mafra/.emacs.d/" (24173 11245 783433 964000) ".lsp-session-v1" ".smex-items" "cider-history" "backups/" "themes/" ".git/" "elpa/" ".gitignore" ".recentf" "README.md" "init.el" "auto-save-list/" "kkcrc" "projectile-bookmarks.eld" "customizations/" ".mc-lists.el" "ido.last" "../" "./")
+
+ ("/Users/lucas.mafra/" (24173 11243 40858 703000) "miniconda3/" ".conda/" ".zlogin" ".viminfo" ".bash_history" ".gitconfig" ".aws/" ".python_history" "Downloads/" ".oh-my-zsh/" ".gem/" ".bash_profile" ".histfile" ".m2/" ".vscode/" ".cpcache/" "Documents/" ".npm/" "atlas.edn" ".zcompdump" ".jupyter/" "payload.json" "test.txt" "docker-compose.yml" "ejtserver_unix_1_13_1.tar.gz" "dev/" ".Trash/" "query.edn" ".gradle/" ".profile" "Applications/" "Movies/" ".ssh/" "reloaded/" ".zcompdump-Lucas’s MacBook Pro-5.3" ".flutter" ".kube/" "Public/" ".lein/" "go-flutter-open_file/" ".sbt/" "GHDL.ova" ".bash_sessions/" ".android/" ".emacs.d/" ".jprofiler11/" ".emulator_console_auth_token" ".oracle_jre_usage/" "mortician-result/" ".mkshrc" ".matplotlib/" "sdk-flutter/" "Library/" "Desktop/" ".rvm/" ".ipython/" ".p2/" ".zsh_history" "datomic-pro-0.9.5981/" ".nrepl-port" "Postman/" "contact-list-integration.edn" ".pub-cache/" ".clojure_history" ".nvm/" ".dartServer/" ".atom/" "Pictures/" ".nurc" "deps.edn" ".zshrc" ".zshrc.pre-oh-my-zsh" ".bashrc" ".subversion/" ".rbenv/" ".zcompdump-Lucas’s MacBook Pro-5.7.1" ".CFUserTextEncoding" ".yarnrc" "VirtualBox VMs/" ".gnupg/" "eclipse/" ".DS_Store" ".monocli" "go/" ".dart/" "tic-tac-toe/" "go-flutter-share/" ".node-gyp/" ".install4j" ".ivy2/" "ejtserver/" ".docker/" ".clojure/" "GHDL.ova.md5sum" "parasite.srt" "Music/" ".config/" ".eclipse/" "../" "./")
+
+ ("/Users/lucas.mafra/dev/playground/svg-exploration/" (24173 5112 613511 314000) "exploration.html" "package.json" "index.html" "../" "./")
 
  ("/Users/lucas.mafra/dev/lucasmafra/atlas-ui/public/" (24163 60083 267063 596000) "logo192.png" "robots.txt" "manifest.json" "logo512.png" "index.html" "favicon.ico" "../" "./")
 
  ("/Users/lucas.mafra/dev/lucasmafra/atlas-ui/" (24163 60083 275606 892000) "src/" ".git/" "config-overrides.js" ".env" "package.json" ".gitignore" "public/" "yarn.lock" "README.md" "node_modules/" "config-overrides-antd-vars.less" "../" "./")
-
- ("/Users/lucas.mafra/" (24172 57202 481717 473000) "miniconda3/" ".conda/" ".zlogin" ".viminfo" ".bash_history" ".gitconfig" ".aws/" ".python_history" "Downloads/" ".oh-my-zsh/" ".gem/" ".bash_profile" ".histfile" ".m2/" ".vscode/" ".cpcache/" "Documents/" ".npm/" "atlas.edn" ".zcompdump" ".jupyter/" "payload.json" "test.txt" "docker-compose.yml" "ejtserver_unix_1_13_1.tar.gz" "dev/" ".Trash/" "query.edn" ".gradle/" ".profile" "Applications/" "Movies/" ".ssh/" "reloaded/" ".zcompdump-Lucas’s MacBook Pro-5.3" ".flutter" ".kube/" "Public/" ".lein/" "go-flutter-open_file/" ".sbt/" "GHDL.ova" ".bash_sessions/" ".android/" ".emacs.d/" ".jprofiler11/" ".emulator_console_auth_token" ".oracle_jre_usage/" "mortician-result/" ".mkshrc" ".matplotlib/" "sdk-flutter/" "Library/" "Desktop/" ".rvm/" ".ipython/" ".p2/" ".zsh_history" "datomic-pro-0.9.5981/" ".nrepl-port" "Postman/" "contact-list-integration.edn" ".pub-cache/" ".clojure_history" ".nvm/" ".dartServer/" ".atom/" "Pictures/" ".nurc" "deps.edn" ".zshrc" ".zshrc.pre-oh-my-zsh" ".bashrc" ".subversion/" ".rbenv/" ".zcompdump-Lucas’s MacBook Pro-5.7.1" ".CFUserTextEncoding" ".yarnrc" "VirtualBox VMs/" ".gnupg/" "eclipse/" ".DS_Store" ".monocli" "go/" ".dart/" "tic-tac-toe/" "go-flutter-share/" ".node-gyp/" ".install4j" ".ivy2/" "ejtserver/" ".docker/" ".clojure/" "GHDL.ova.md5sum" "parasite.srt" "Music/" ".config/" ".eclipse/" "../" "./")
 
  ("/Users/lucas.mafra/dev/playground/" (24172 57172 388417 38000) "basic-microservice-example/" "bla/" "svg-exploration/" "../" "./")
 
@@ -259,8 +261,6 @@
  ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/" (24163 41879 198855 994000) "uuid.clj" "json.clj" "http_server/" "generators.clj" "schema/" "state_flow_helpers/" "misc.clj" "config/" "humanize.clj" "http_client/" "coercion.clj" "../" "./")
 
  ("/Users/lucas.mafra/dev/lucasmafra/common-clj/" (24163 42048 468295 194000) "src/" ".git/" "dev/" ".github/" ".gitignore" "logs/" "README.md" "pom.xml" ".nrepl-port" "resources/" "target/" ".clj-kondo/" "config/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "pom.xml.asc" ".lein-failures" "../" "./")
-
- ("/Users/lucas.mafra/.emacs.d/" (24163 36084 769485 461000) ".lsp-session-v1" ".smex-items" "cider-history" "backups/" "themes/" ".git/" "elpa/" ".gitignore" ".recentf" "README.md" "init.el" "auto-save-list/" "projectile-bookmarks.eld" "customizations/" ".mc-lists.el" "ido.last" "../" "./")
 
  ("/Users/lucas.mafra/eclipse/" (24057 10328 424036 58000) "java-2019-09/" "../" "./")
 

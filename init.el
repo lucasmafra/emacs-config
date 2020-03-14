@@ -19,7 +19,7 @@
 ;; Load and activate emacs packages. Do this first so that the
 ;; packages are loaded before you start trying to modify them.
 ;; This also sets the load path.
-(package-initialize)
+;; (package-initialize)
 
 ;; Download the ELPA archive description if needed.
 ;; This informs Emacs about the latest versions of all packages, and
@@ -217,7 +217,7 @@
 ;; Add melpa to your packages repositories
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 
-(package-initialize)
+;; (package-initialize)
 
 ;; Install use-package if not already installed
 (unless (package-installed-p 'use-package)
