@@ -137,7 +137,6 @@
 
 ;; Langauage-specific
 (load "setup-clojure.el")
-(load "setup-js.el")
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -145,9 +144,9 @@
  ;; If there is more than one, they won't work right.
  '(cljr-clojure-test-namespace-under-test-alias "nut")
  '(coffee-tab-width 2)
+ '(js-indent-level 2)
  '(package-selected-packages
-   (quote
-    (impatient-mode flycheck-clj-kondo slamhound company-lsp lsp-ui use-package lsp-mode sbt-mode scala-mode clj-refactor js-comint neotree emmet-mode flycheck web-mode add-node-modules-path prettier-js js-import company rjsx-mode sesman magit tagedit rainbow-delimiters projectile smex ido-completing-read+ cider clojure-mode-extra-font-locking clojure-mode paredit exec-path-from-shell))))
+   '(indium tide impatient-mode flycheck-clj-kondo slamhound company-lsp lsp-ui use-package lsp-mode sbt-mode scala-mode clj-refactor neotree emmet-mode flycheck web-mode add-node-modules-path company sesman magit tagedit rainbow-delimiters projectile smex ido-completing-read+ cider clojure-mode-extra-font-locking clojure-mode paredit exec-path-from-shell)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -159,18 +158,9 @@
 (add-hook 'after-init-hook 'global-company-mode)
   
 (add-hook 'flycheck-mode-hook 'add-node-modules-path)
-(add-hook 'js2-mode-hook #'setup-tide-mode)
 ;; configure javascript-tide checker to run after your default javascript checker
 
-(require 'web-mode)
-(add-to-list 'auto-mode-alist '("\\.jsx\\'" . web-mode))
-(add-hook 'web-mode-hook
-          (lambda ()
-            (when (string-equal "jsx" (file-name-extension buffer-file-name))
-              (setup-tide-mode))))
-;; configure jsx-tide checker to run after your default jsx checker
-(require 'js2-refactor)
-(add-hook 'js2-mode-hook #'js2-refactor-mode)
+
 (require 'expand-region)
 (global-set-key (kbd "C-=") 'er/expand-region)
 (require 'multiple-cursors)
@@ -184,18 +174,10 @@
 (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
 (global-set-key (kbd "C-u") 'undo)
 
-
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
 
 (add-to-list 'load-path "~/mylisp/")
-(require 'js-comint)
-
-(add-hook 'js2-mode-hook
-          (lambda ()
-            (local-set-key (kbd "C-c C-e") 'js-send-last-sexp)
-            (local-set-key (kbd "C-c C-k") 'js-send-buffer)
-            (local-set-key (kbd "C-c C-b") 'js-send-buffer-and-go)))
 
 (require 'clj-refactor)
 
@@ -292,4 +274,22 @@
 (global-set-key (kbd "C-c t") 'cider-test-save-and-run)
 
 (require 'flycheck-clj-kondo)
-(add-hook 'after-init-hook #'global-flycheck-mode)
+
+(defun setup-tide-mode ()
+  "Setup function for tide."
+  (interactive)
+  (tide-setup)
+  (flycheck-mode +1)
+  (setq flycheck-check-syntax-automatically '(save mode-enabled))
+  (eldoc-mode +1)
+  (tide-hl-identifier-mode +1)
+  (company-mode +1))
+
+(setq company-tooltip-align-annotations t)
+
+(add-hook 'js-mode-hook #'setup-tide-mode)
+
+(add-hook 'js-mode-hook 'prettier-js-mode)
+
+(require 'indium)
+(add-hook 'js-mode-hook #'indium-interaction-mode)

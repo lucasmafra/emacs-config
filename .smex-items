@@ -1,32 +1,32 @@
 
 ;; ----- smex-history -----
 (
- package-autoremove
- impatient-mode
- httpd-start
- browse-url-of-buffer
- httpd-stop
- package-install
- browse-web
+ query-replace
+ delete-file
+ paredit-mode
+ projectile-find-file
+ cider-jack-in
+ cljr-rename-file
+ projectile-discover-projects-in-directory
 )
 
 ;; ----- smex-data -----
 (
  (cider-jack-in . 177)
- (package-refresh-contents . 3)
- (package-install . 24)
- (package-list-packages . 10)
+ (package-refresh-contents . 4)
+ (package-install . 28)
+ (package-list-packages . 12)
  (projectile-find-file . 216)
  (clojure-thread-first-all . 24)
- (cider-inspect-last-result . 29)
+ (cider-inspect-last-result . 35)
  (projectile-switch-project . 6)
- (projectile-discover-projects-in-directory . 70)
+ (projectile-discover-projects-in-directory . 72)
  (switch-to-buffer . 2)
  (raise-sexp . 51)
  (clojure-align . 98)
  (tagedit-splice-tag . 2)
  (paredit-splice-sexp . 30)
- (rename-file . 19)
+ (rename-file . 23)
  (clojure-thread-last-all . 5)
  (align . 3)
  (show-subtree . 1)
@@ -38,17 +38,17 @@
  (copy-to-buffer . 1)
  (set-variable . 2)
  (rsh . 1)
- (js-mode . 1)
+ (js-mode . 3)
  (js2-minor-mode . 6)
- (js2-mode . 6)
+ (js2-mode . 7)
  (js-import . 189)
  (prettier-js-mode . 4)
- (flycheck-mode . 4)
- (company-mode . 6)
- (tide-mode . 32)
- (tide-restart-server . 33)
+ (flycheck-mode . 8)
+ (company-mode . 10)
+ (tide-mode . 38)
+ (tide-restart-server . 67)
  (tide-refactor . 2)
- (tide-organize-imports . 1)
+ (tide-organize-imports . 8)
  (js2-refactor-mode . 1)
  (multiple-cursors-mode . 1)
  (mc/mark-next-lines . 1)
@@ -65,7 +65,7 @@
  (js-send-buffer . 5)
  (js-clear . 10)
  (js-send-last-sexp . 1)
- (neotree-refresh . 25)
+ (neotree-refresh . 26)
  (make-directory . 1)
  (cider . 5)
  (load-file . 1)
@@ -78,8 +78,8 @@
  (shell-command . 6)
  (cider-scratch . 2)
  (split-line . 1)
- (paredit-forward-slurp-sexp . 31)
- (query-replace . 59)
+ (paredit-forward-slurp-sexp . 34)
+ (query-replace . 67)
  (ediff3 . 1)
  (package-install-selected-packages . 1)
  (projectile-grep . 1)
@@ -97,7 +97,7 @@
  (sbt-start . 1)
  (lsp-metals-sources-scan . 1)
  (buffer-menu . 1)
- (delete-file . 26)
+ (delete-file . 30)
  (projectile-project-buffers-other-buffer . 1)
  (cider-switch-to-repl-buffer . 4)
  (clojure-mode . 4)
@@ -132,5 +132,23 @@
  (impatient-mode . 11)
  (httpd-stop . 3)
  (web-mode-navigate . 1)
- (package-autoremove . 1)
+ (package-autoremove . 2)
+ (eww . 4)
+ (eww-back-url . 1)
+ (eww-next-url . 1)
+ (toggle-debug-on-error . 2)
+ (run-with-timer . 1)
+ (setup-tide-mode . 1)
+ (tide-rename-file . 28)
+ (js-jsx-mode . 3)
+ (js-jsx-enable . 2)
+ (tide-documentation-at-point . 1)
+ (tide-references . 1)
+ (tide-project-errors . 1)
+ (tide-error-at-point . 6)
+ (tide-rename-symbol . 31)
+ (tide-fix . 129)
+ (customize-variable . 1)
+ (paredit-raise-sexp . 1)
+ (paredit-mode . 9)
 )

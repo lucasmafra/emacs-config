@@ -2,6 +2,11 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/lucas.mafra/dev/playground/svg-react-exploration/public/" . "icons/")
+ ("/Users/lucas.mafra/dev/playground/svg-react-exploration/src/zoom/" . "interceptors/")
+ ("/Users/lucas.mafra/dev/playground/svg-react-exploration/src/" . "sequence-diagram/")
+ ("/Users/lucas.mafra/dev/playground/svg-react-exploration/src/pan/" . "interceptors/")
+ ("/Users/lucas.mafra/dev/playground/svg-react-exploration/" . "src/")
  ("/Users/lucas.mafra/dev/lucasmafra/atlas-ui/" . "public/")
  ("/Users/lucas.mafra/dev/lucasmafra/atlas/src/" . "atlas/")
  ("/Users/lucas.mafra/dev/nu/horcrux/test/horcrux/db/" . "datomic/")
@@ -23,7 +28,7 @@
  ("/Users/lucas.mafra/dev/nu/zakarum/src/zakarum/" . "schemata/")
  ("/Users/lucas.mafra/dev/nu/zakarum/src/" . "zakarum/")
  ("/Users/lucas.mafra/dev/nu/zakarum/" . "src/")
- ("/Users/lucas.mafra/dev/playground/" . "atlas/")
+ ("/Users/lucas.mafra/dev/playground/" . "svg-exploration/")
  ("/Users/lucas.mafra/dev/playground/oraculo/src/oraculo/" . "ports/")
  ("/Users/lucas.mafra/dev/playground/oraculo/src/" . "oraculo/")
  ("/Users/lucas.mafra/dev/playground/oraculo/" . "src/")
@@ -67,7 +72,7 @@
  ("/Users/lucas.mafra/dev/nu/griswold/src/griswold/" . "schemata/")
  ("/Users/lucas.mafra/dev/nu/griswold/src/" . "griswold/")
  ("/Users/lucas.mafra/dev/lucasmafra/" . "atlas-ui/")
- ("/Users/lucas.mafra/dev/" . "lucasmafra/")
+ ("/Users/lucas.mafra/dev/" . "playground/")
  ("/Users/lucas.mafra/" . ".emacs.d/")
  ("/home/lucas/dev/payroll-clj/ledger/test/" . "ledger/")
  ("/home/lucas/dev/common-clj/test/common_clj/" . "components/")
@@ -131,7 +136,19 @@
 ;; ----- ido-work-directory-list -----
 (
  "/Users/lucas.mafra/.emacs.d/"
+ "/Users/lucas.mafra/dev/playground/svg-react-exploration/src/"
+ "/Users/lucas.mafra/dev/playground/svg-react-exploration/.github/workflows/"
+ "/Users/lucas.mafra/dev/playground/svg-react-exploration/src/common-js/"
+ "/Users/lucas.mafra/dev/playground/svg-react-exploration/src/sequence-diagram/"
+ "/Users/lucas.mafra/dev/playground/svg-react-exploration/src/svg-zoom-pan/"
+ "/Users/lucas.mafra/dev/playground/svg-react-exploration/public/icons/"
+ "/Users/lucas.mafra/dev/playground/svg-react-exploration/src/zoom/interceptors/"
+ "/Users/lucas.mafra/dev/playground/svg-react-exploration/src/zoom/"
+ "/Users/lucas.mafra/dev/playground/svg-react-exploration/src/pan/interceptors/"
+ "/Users/lucas.mafra/dev/playground/svg-react-exploration/src/pan/"
  "/Users/lucas.mafra/dev/playground/svg-exploration/"
+ "/Users/lucas.mafra/dev/playground/svg-react-exploration/"
+ "/Users/lucas.mafra/dev/lucasmafra/atlas/test/flows/"
  "/Users/lucas.mafra/dev/lucasmafra/atlas-ui/public/"
  "/Users/lucas.mafra/Desktop/"
  "/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/clojure_test_helpers/"
@@ -140,7 +157,6 @@
  "/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/lib/"
  "/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/controllers/"
  "/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/schemata/"
- "/Users/lucas.mafra/dev/lucasmafra/atlas/test/flows/"
  "/Users/lucas.mafra/dev/nu/customers/src/customers/"
  "/Users/lucas.mafra/dev/nu/horcrux/test/horcrux/db/datomic/"
  "/Users/lucas.mafra/dev/nu/horcrux/src/horcrux/schemata/beggar/"
@@ -169,46 +185,75 @@
  "/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/http_client/interceptors/"
  "/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/domain/"
  "/Users/lucas.mafra/dev/lucasmafra/atlas/test/atlas/adapters/"
- "/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/adapters/"
- "/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/"
- "/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/ports/"
- "/Users/lucas.mafra/dev/playground/atlas/src/atlas/schemata/"
- "/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/state_flow_helpers/"
- "/Users/lucas.mafra/dev/playground/atlas/src/atlas/ports/"
- "/Users/lucas.mafra/dev/playground/atlas/src/atlas/controllers/"
- "/Users/lucas.mafra/dev/nu/horcrux/src/horcrux/logic/"
- "/Users/lucas.mafra/dev/nu/horcrux/src/horcrux/schemata/customers/"
- "/Users/lucas.mafra/dev/nu/horcrux/src/horcrux/schemata/social/"
- "/Users/lucas.mafra/dev/nu/horcrux/postman/postman/"
 )
 
 ;; ----- ido-work-file-list -----
 (
  "init.el"
- "exploration.html"
- "index.html"
- "request_transfer_out.json"
- "test.clj"
- "trace_graph_test.clj"
- "trace_graph.clj"
- "coercion.clj"
- "trace_search.clj"
- "operation.clj"
+ ".prettierrc"
+ "main.yml"
+ "misc.js"
+ "SequenceDiagram.js"
+ "index.js"
+ "LifelineIcon.js"
+ "LifelineLabel.js"
+ "drawing.test.js"
+ "ArrowIcon.js"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/lucas.mafra/.emacs.d/" (24173 11245 783433 964000) ".lsp-session-v1" ".smex-items" "cider-history" "backups/" "themes/" ".git/" "elpa/" ".gitignore" ".recentf" "README.md" "init.el" "auto-save-list/" "kkcrc" "projectile-bookmarks.eld" "customizations/" ".mc-lists.el" "ido.last" "../" "./")
+ ("/Users/lucas.mafra/.emacs.d/" (24184 6533 549960 563000) ".lsp-session-v1" ".smex-items" "cider-history" "themes/" ".git/" "elpa/" ".gitignore" ".recentf" "indium-chrome-profile/" "README.md" "init.el" "url/" "auto-save-list/" "kkcrc" "projectile-bookmarks.eld" "customizations/" ".mc-lists.el" "ido.last" "../" "./")
 
- ("/Users/lucas.mafra/" (24173 11243 40858 703000) "miniconda3/" ".conda/" ".zlogin" ".viminfo" ".bash_history" ".gitconfig" ".aws/" ".python_history" "Downloads/" ".oh-my-zsh/" ".gem/" ".bash_profile" ".histfile" ".m2/" ".vscode/" ".cpcache/" "Documents/" ".npm/" "atlas.edn" ".zcompdump" ".jupyter/" "payload.json" "test.txt" "docker-compose.yml" "ejtserver_unix_1_13_1.tar.gz" "dev/" ".Trash/" "query.edn" ".gradle/" ".profile" "Applications/" "Movies/" ".ssh/" "reloaded/" ".zcompdump-Lucas’s MacBook Pro-5.3" ".flutter" ".kube/" "Public/" ".lein/" "go-flutter-open_file/" ".sbt/" "GHDL.ova" ".bash_sessions/" ".android/" ".emacs.d/" ".jprofiler11/" ".emulator_console_auth_token" ".oracle_jre_usage/" "mortician-result/" ".mkshrc" ".matplotlib/" "sdk-flutter/" "Library/" "Desktop/" ".rvm/" ".ipython/" ".p2/" ".zsh_history" "datomic-pro-0.9.5981/" ".nrepl-port" "Postman/" "contact-list-integration.edn" ".pub-cache/" ".clojure_history" ".nvm/" ".dartServer/" ".atom/" "Pictures/" ".nurc" "deps.edn" ".zshrc" ".zshrc.pre-oh-my-zsh" ".bashrc" ".subversion/" ".rbenv/" ".zcompdump-Lucas’s MacBook Pro-5.7.1" ".CFUserTextEncoding" ".yarnrc" "VirtualBox VMs/" ".gnupg/" "eclipse/" ".DS_Store" ".monocli" "go/" ".dart/" "tic-tac-toe/" "go-flutter-share/" ".node-gyp/" ".install4j" ".ivy2/" "ejtserver/" ".docker/" ".clojure/" "GHDL.ova.md5sum" "parasite.srt" "Music/" ".config/" ".eclipse/" "../" "./")
+ ("/Users/lucas.mafra/" (24184 6521 342418 227000) "miniconda3/" ".conda/" ".zlogin" ".viminfo" ".bash_history" ".gitconfig" ".aws/" ".python_history" "Downloads/" ".oh-my-zsh/" ".gem/" ".bash_profile" ".histfile" ".m2/" ".vscode/" ".cpcache/" "Documents/" ".npm/" "atlas.edn" ".zcompdump" ".jupyter/" "payload.json" "test.txt" "docker-compose.yml" "ejtserver_unix_1_13_1.tar.gz" "dev/" ".Trash/" "query.edn" ".gradle/" ".profile" "Applications/" "Movies/" ".ssh/" "reloaded/" ".zcompdump-Lucas’s MacBook Pro-5.3" ".flutter" ".kube/" "Public/" ".lein/" "go-flutter-open_file/" ".sbt/" "GHDL.ova" ".bash_sessions/" ".android/" ".emacs.d/" ".jprofiler11/" ".emulator_console_auth_token" ".oracle_jre_usage/" "mortician-result/" ".mkshrc" ".matplotlib/" "sdk-flutter/" "Library/" "Desktop/" ".rvm/" ".ipython/" ".p2/" ".zsh_history" "datomic-pro-0.9.5981/" ".nrepl-port" "Postman/" "contact-list-integration.edn" ".pub-cache/" ".clojure_history" ".nvm/" ".dartServer/" ".atom/" "Pictures/" ".nurc" "deps.edn" ".zshrc" ".zshrc.pre-oh-my-zsh" ".bashrc" ".subversion/" ".rbenv/" ".zcompdump-Lucas’s MacBook Pro-5.7.1" ".CFUserTextEncoding" ".yarnrc" "VirtualBox VMs/" ".gnupg/" "eclipse/" ".DS_Store" ".monocli" "go/" ".dart/" "tic-tac-toe/" "go-flutter-share/" ".node-gyp/" ".install4j" ".ivy2/" "ejtserver/" ".docker/" ".clojure/" "GHDL.ova.md5sum" "parasite.srt" "Music/" ".config/" ".eclipse/" "../" "./")
 
- ("/Users/lucas.mafra/dev/playground/svg-exploration/" (24173 5112 613511 314000) "exploration.html" "package.json" "index.html" "../" "./")
+ ("/Users/lucas.mafra/dev/lucasmafra/" (24184 6201 65777 899000) "lm-app-template/" "react-svg-zoom-pan/" "atlas/" "latinize/" "common-clj/" "flame/" "atlas-ui/" "emacs-config/" "datomic-hello/" "fuzzy/" "atlas-old/" "go-flutter-share/" "../" "./")
+
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas-ui/" (24184 6384 449151 140000) "src/" ".git/" ".prettierrc" ".github/" "package.json" ".gitignore" "public/" "yarn.lock" "README.md" "node_modules/" ".eslintrc" "jsconfig.json" "../" "./")
+
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas-ui/src/" (24184 6384 449151 188000) "App.js" "svg-zoom-pan/" "logo.svg" "setupTests.js" "serviceWorker.js" "App.test.js" "mock.js" "common-js/" "index.css" "index.js" "sequence-diagram/" "../" "./")
+
+ ("/Users/lucas.mafra/dev/playground/svg-react-exploration/" (24184 4949 925921 662000) "src/" ".git/" ".github/" "package.json" ".gitignore" "public/" "yarn.lock" "README.md" "node_modules/" ".eslintrc" "jsconfig.json" "../" "./")
+
+ ("/Users/lucas.mafra/dev/playground/" (24179 31787 419887 736000) "react-svg-pan-zoom/" "svg-pan-zoom/" "basic-microservice-example/" "bla/" "svg-exploration/" "svg-react-exploration/" "../" "./")
+
+ ("/Users/lucas.mafra/dev/playground/svg-react-exploration/.github/" (24184 2707 812927 580000) "workflows/" "../" "./")
+
+ ("/Users/lucas.mafra/dev/playground/svg-react-exploration/.github/workflows/" (24184 3198 727171 959000) "main.yml" "../" "./")
+
+ ("/Users/lucas.mafra/dev/playground/svg-react-exploration/src/sequence-diagram/" (24184 421 58162 285000) "SequenceDiagram.js" "ArrowLabel.js" "ArrowIcon.js" "LifelineStreak.js" "theme.js" "LifelineIcon.js" "Icon.js" "Arrow.js" "drawing.test.js" "Icon.test.js" "ExecutionBox.js" "LifelineLabel.js" "Lifeline.js" "drawing.js" "../" "./")
+
+ ("/Users/lucas.mafra/dev/playground/svg-react-exploration/src/common-js/" (24184 1834 120796 394000) "debug.js" "functional.js" "../" "./")
+
+ ("/Users/lucas.mafra/dev/playground/svg-react-exploration/src/" (24183 64879 849120 364000) "App.js" "svg-zoom-pan/" "logo.svg" "setupTests.js" "serviceWorker.js" "App.test.js" "mock.js" "common-js/" "index.css" "index.js" "sequence-diagram/" "../" "./")
+
+ ("/Users/lucas.mafra/dev/playground/svg-react-exploration/src/svg-zoom-pan/" (24183 64555 474880 720000) "pan/" "matrix.test.js" "zoom/" "ZoomControls.js" "index.js" "matrix.js" "ZoomControls.test.js" "../" "./")
+
+ ("sequence-diagram/" (24183 63550 451017 770000) "ArrowLabel.js" "ArrowIcon.js" "drawing.test.js" "drawing.js" "../" "./")
+
+ ("/Users/lucas.mafra/dev/playground/svg-react-exploration/src/drawing/" (24183 34114 684808 464000) "drawing.js" "../" "./")
+
+ ("/Users/lucas.mafra/dev/playground/svg-react-exploration/public/icons/" (24182 19713 8212 510000) "mobile.svg" "topic.svg" "hexagon.svg" "../" "./")
+
+ ("/Users/lucas.mafra/dev/playground/svg-react-exploration/public/" (24182 17038 552618 538000) "logo192.png" "robots.txt" "manifest.json" "icons/" "logo512.png" "index.html" "favicon.ico" "../" "./")
+
+ ("/Users/lucas.mafra/dev/playground/svg-react-exploration/src/zoom/interceptors/" (24180 58504 601065 81000) "min-x.js" "max-x.js" "max-zoom.js" "min-y.js" "min-y.test.js" "min-x.test.js" "max-x.test.js" "max-zoom.test.js" "min-zoom.test.js" "min-zoom.js" "prevent-zoom-outside-figure.js" "prevent-zoom-outside-figure.test.js" "scale-factor.js" "../" "./")
+
+ ("/Users/lucas.mafra/dev/playground/svg-react-exploration/src/zoom/" (24179 31789 405500 640000) "zoom.js" "zoom.test.js" "interceptors/" "../" "./")
+
+ ("/Users/lucas.mafra/dev/playground/svg-react-exploration/src/pan/interceptors/" (24178 43396 823665 294000) "max-y.js" "pan-velocity.js" "min-x.js" "prevent-pan-outside-figure.test.js" "pan-velocity.test.js" "max-x.js" "min-y.js" "min-y.test.js" "min-x.test.js" "max-x.test.js" "prevent-pan-on-figure-smaller-than-svg.js" "move-only-one-axis.test.js" "prevent-pan-outside-figure.js" "max-y.test.js" "prevent-pan-on-figure-smaller-than-svg.test.js" "move-only-one-axis.js" "../" "./")
+
+ ("/Users/lucas.mafra/dev/playground/svg-react-exploration/src/pan/" (24178 34621 26430 734000) "pan.js" "pan.test.js" "interceptors/" "../" "./")
+
+ ("pan/" (24178 29026 739479 486000) "interceptors/" "../" "./")
+
+ ("/Users/lucas.mafra/dev/playground/svg-exploration/" (24173 34014 197919 70000) "exploration.html" "package.json" "index.html" "../" "./")
+
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/" (24173 36616 53914 570000) "src/" ".git/" "dev/" ".github/" ".gitignore" "logs/" "README.md" "pom.xml" ".nrepl-port" "resources/" "target/" ".clj-kondo/" "config/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" ".lein-failures" "../" "./")
+
+ ("/Users/lucas.mafra/dev/lucasmafra/atlas/dev/" (24156 28029 981829 53000) "user.clj" "dev.clj" "../" "./")
 
  ("/Users/lucas.mafra/dev/lucasmafra/atlas-ui/public/" (24163 60083 267063 596000) "logo192.png" "robots.txt" "manifest.json" "logo512.png" "index.html" "favicon.ico" "../" "./")
-
- ("/Users/lucas.mafra/dev/lucasmafra/atlas-ui/" (24163 60083 275606 892000) "src/" ".git/" "config-overrides.js" ".env" "package.json" ".gitignore" "public/" "yarn.lock" "README.md" "node_modules/" "config-overrides-antd-vars.less" "../" "./")
-
- ("/Users/lucas.mafra/dev/playground/" (24172 57172 388417 38000) "basic-microservice-example/" "bla/" "svg-exploration/" "../" "./")
 
  ("/Users/lucas.mafra/dev/nu/griswold/src/griswold/controllers/" (24169 30947 752911 857000) "bank_account.clj" "offer.clj" "sale.clj" "warning.clj" "bill_payment_request.clj" "frequent_transfers.clj" "migration.clj" "transfer_window.clj" "transfer_out_request.clj" "savings_account.clj" "savings_authorization.clj" "company_customer.clj" "../" "./")
 
@@ -284,8 +329,6 @@
 
  ("/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/lib/" (24163 38003 652080 861000) "coercion.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/atlas/" (24163 36115 169536 898000) "src/" ".git/" "dev/" ".github/" ".gitignore" "logs/" "README.md" "pom.xml" ".nrepl-port" "resources/" "target/" ".clj-kondo/" "config/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" ".lein-failures" "../" "./")
-
  ("/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/schemata/" (24156 28029 983372 438000) "service.clj" "trace_search.clj" "operation.clj" "jaeger.clj" "../" "./")
 
  ("/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/ports/" (24154 51023 390156 327000) "http_client.clj" "http_server.clj" "../" "./")
@@ -346,8 +389,6 @@
 
  ("/Users/lucas.mafra/dev/lucasmafra/common-clj/resources/" (24107 26860 926828 961000) "fixtures/" "data_readers.clj" "../" "./")
 
- ("/Users/lucas.mafra/dev/lucasmafra/" (24154 49115 163997 531000) "lm-app-template/" "atlas/" "latinize/" "common-clj/" "flame/" "atlas-ui/" "emacs-config/" "datomic-hello/" "fuzzy/" "atlas-old/" "go-flutter-share/" "../" "./")
-
  ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/http_server/" (24156 20557 929240 378000) "http_server_test.clj" "interceptors/" "../" "./")
 
  ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/components/http_server/" (24156 9519 875342 363000) "../" "./")
@@ -361,42 +402,6 @@
  ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/http_server/interceptors/" (24155 59750 72028 824000) "json_serializer.clj" "content_type.clj" "query_params_coercer.clj" "context_initializer.clj" "helpers.clj" "path_params_coercer.clj" "error.clj" "body_coercer.clj" "../" "./")
 
  ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/http_client/" (24155 60073 757550 833000) "http_client.clj" "protocol.clj" "schemata.clj" "interceptors/" "../" "./")
-
- ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/schemata/" (24154 53764 304109 717000) "config.clj" "producer.clj" "http_client.clj" "consumer.clj" "http_server.clj" "../" "./")
-
- ("/Users/lucas.mafra/dev/lucasmafra/common-clj/.github/workflows/" (24155 12418 296519 147000) "clojure.yml" "../" "./")
-
- ("/Users/lucas.mafra/dev/lucasmafra/common-clj/config/" (24154 60361 324209 497000) "logback.xml" "../" "./")
-
- ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/" (24137 23250 551926 471000) "common_clj/" "../" "./")
-
- ("/Users/lucas.mafra/dev/lucasmafra/common-clj/dev/" (24154 47836 826645 461000) "user.clj" "dev.clj" "../" "./")
-
- ("/Users/lucas.mafra/dev/lucasmafra/atlas/.github/workflows/" (24153 57361 915912 116000) "clojure.yml" "clojure_linter.yml" "../" "./")
-
- ("/Users/lucas.mafra/dev/lucasmafra/atlas/test/atlas/adapters/" (24153 52561 722960 298000) "trace_search_test.clj" "../" "./")
-
- ("/Users/lucas.mafra/dev/lucasmafra/atlas/.clj-kondo/" (24153 41172 668151 881000) ".cache/" "config.edn" "../" "./")
-
- ("/Users/lucas.mafra/dev/lucasmafra/atlas/test/atlas/" (24153 24726 163093 944000) "domain/" "adapters/" "../" "./")
-
- ("/usr/" (23941 32182 0 0) "share/" "lib/" "local/" "sbin/" "libexec/" "standalone/" "bin/" "../" "./")
-
- ("/dev/" (24140 34948 0 0) "ttys000" "ttys003" "ttys001" "nsmb0" "bpf4" "vboxnetctl" "tty.Bluetooth-Incoming-Port" "cu.Bluetooth-Incoming-Port" "uart.BLTH" "autofs_control" "autofs_homedirmounter" "autofs_notrigger" "autofs_nowait" "autofs" "vboxdrvu" "vboxdrv" "xcpm" "rdisk1s4" "disk1s4" "rdisk1s3" "disk1s3" "rdisk1s2" "disk1s2" "rdisk1s1" "disk1s1" "rdisk1" "disk1" "rdisk0s2" "disk0s2" "rdisk0s1" "disk0s1" "rdisk0" "disk0" "io8logtemp" "io8logmt" "io8log" "afsc_type5" "profile" "fbt" "machtrace" "systrace" "sdt" "lockstat" "dtracehelper" "dtrace" "urandom" "random" "fsevents" "bpf3" "bpf2" "bpf1" "bpf0" "ptmx" "ptywf" "ttywf" "ptywe" "ttywe" "ptywd" "ttywd" "ptywc" "ttywc" "ptywb" "ttywb" "ptywa" "ttywa" "ptyw9" "ttyw9" "ptyw8" "ttyw8" "ptyw7" "ttyw7" "ptyw6" "ttyw6" "ptyw5" "ttyw5" "ptyw4" "ttyw4" "ptyw3" "ttyw3" "ptyw2" "ttyw2" "ptyw1" "ttyw1" "ptyw0" "ttyw0" "ptyvf" "ttyvf" "ptyve" "ttyve" "ptyvd" "ttyvd" "ptyvc" "ttyvc" "ptyvb" "ttyvb" "ptyva" "ttyva" "ptyv9" "ttyv9" "ptyv8" "ttyv8" "ptyv7" "ttyv7" "ptyv6" "ttyv6" "ptyv5" "ttyv5" "ptyv4" "ttyv4" "ptyv3" "ttyv3" "ptyv2" "ttyv2" "ptyv1" "ttyv1" "ptyv0" "ttyv0" "ptyuf" "ttyuf" "ptyue" "ttyue" "ptyud" "ttyud" "ptyuc" "ttyuc" "ptyub" "ttyub" "ptyua" "ttyua" "ptyu9" "ttyu9" "ptyu8" "ttyu8" "ptyu7" "ttyu7" "ptyu6" "ttyu6" "ptyu5" "ttyu5" "ptyu4" "ttyu4" "ptyu3" "ttyu3" "ptyu2" "ttyu2" "ptyu1" "ttyu1" "ptyu0" "ttyu0" "ptytf" "ttytf" "ptyte" "ttyte" "ptytd" "ttytd" "ptytc" "ttytc" "ptytb" "ttytb" "ptyta" "ttyta" "ptyt9" "ttyt9" "ptyt8" "ttyt8" "ptyt7" "ttyt7" "ptyt6" "ttyt6" "ptyt5" "ttyt5" "ptyt4" "ttyt4" "ptyt3" "ttyt3" "ptyt2" "ttyt2" "ptyt1" "ttyt1" "ptyt0" "ttyt0" "ptysf" "ttysf" "ptyse" "ttyse" "ptysd" "ttysd" "ptysc" "ttysc" "ptysb" "ttysb" "ptysa" "ttysa" "ptys9" "ttys9" "ptys8" "ttys8" "ptys7" "ttys7" "ptys6" "ttys6" "ptys5" "ttys5" "ptys4" "ttys4" "ptys3" "ttys3" "ptys2" "ttys2" "ptys1" "ttys1" "ptys0" "ttys0" "ptyrf" "ttyrf" "ptyre" "ttyre" "ptyrd" "ttyrd" "ptyrc" "ttyrc" "ptyrb" "ttyrb" "ptyra" "ttyra" "ptyr9" "ttyr9" "ptyr8" "ttyr8" "ptyr7" "ttyr7" "ptyr6" "ttyr6" "ptyr5" "ttyr5" "ptyr4" "ttyr4" "ptyr3" "ttyr3" "ptyr2" "ttyr2" "ptyr1" "ttyr1" "ptyr0" "ttyr0" "ptyqf" "ttyqf" "ptyqe" "ttyqe" "ptyqd" "ttyqd" "ptyqc" "ttyqc" "ptyqb" "ttyqb" "ptyqa" "ttyqa" "ptyq9" "ttyq9" "ptyq8" "ttyq8" "ptyq7" "ttyq7" "ptyq6" "ttyq6" "ptyq5" "ttyq5" "ptyq4" "ttyq4" "ptyq3" "ttyq3" "ptyq2" "ttyq2" "ptyq1" "ttyq1" "ptyq0" "ttyq0" "ptypf" "ttypf" "ptype" "ttype" "ptypd" "ttypd" "ptypc" "ttypc" "ptypb" "ttypb" "ptypa" "ttypa" "ptyp9" "ttyp9" "ptyp8" "ttyp8" "ptyp7" "ttyp7" "ptyp6" "ttyp6" "ptyp5" "ttyp5" "ptyp4" "ttyp4" "ptyp3" "ttyp3" "ptyp2" "ttyp2" "ptyp1" "ttyp1" "ptyp0" "ttyp0" "pfm" "pf" "auditpipe" "auditsessions" "stderr" "stdout" "stdin" "fd/" "oslog_stream" "oslog" "klog" "zero" "null" "tty" "console" "../" "./")
-
- ("/Users/" (24083 33657 95139 659000) "lucas.mafra/" "Shared/" ".localized" "../" "./")
-
- ("/Users/lucas.mafra/.lein/" (24042 29747 96545 655000) "self-installs/" "profiles.clj" "../" "./")
-
- ("/Users/lucas.mafra/dev/lucasmafra/atlas/test/" (24153 24726 162858 484000) "flows/" "atlas/" "../" "./")
-
- ("/Users/lucas.mafra/dev/lucasmafra/atlas/src/atlas/adapters/" (24151 64520 71661 246000) "search_traces.clj" "../" "./")
-
- ("/Users/lucas.mafra/dev/lucasmafra/atlas/dev/" (24153 4466 55693 334000) "user.clj" "dev.clj" "../" "./")
-
- ("/Users/lucas.mafra/dev/lucasmafra/common-clj/test/common_clj/http_server/interceptors/" (24152 41090 873570 478000) "path_params_coercer_test.clj" "error_test.clj" "body_coercer_test.clj" "json_serializer_test.clj" "content_type_test.clj" "query_params_coercer_test.clj" "../" "./")
-
- ("/Users/lucas.mafra/dev/lucasmafra/common-clj/src/common_clj/http_client/interceptors/" (24152 15734 160138 880000) "json_serializer.clj" "handler.clj" "coercer.clj" "with_mock_calls.clj" "path_params_replacer.clj" "request_body.clj" "json_deserializer.clj" "helpers.clj" "url_builder.clj" "query_params.clj" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
